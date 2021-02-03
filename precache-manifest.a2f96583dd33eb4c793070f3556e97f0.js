@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a6f07467a04ea651d406eaf72697b3b4",
+    "revision": "6eb82477c3da17d5a4b37d5a567ed303",
     "url": "/globix/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/globix/static/css/2.78925862.chunk.css"
   },
   {
-    "revision": "0ef7e5a5046d42a785e4",
-    "url": "/globix/static/css/main.4fd95c40.chunk.css"
+    "revision": "607cbdef389a35dbd4c2",
+    "url": "/globix/static/css/main.dd1dbca5.chunk.css"
   },
   {
     "revision": "a909f841fd20af94043f",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/globix/static/js/2.d743f216.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0ef7e5a5046d42a785e4",
-    "url": "/globix/static/js/main.9b81c303.chunk.js"
+    "revision": "607cbdef389a35dbd4c2",
+    "url": "/globix/static/js/main.543228ca.chunk.js"
   },
   {
     "revision": "7e44515c92445ff1cc2f",
@@ -152,40 +152,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/globix/static/media/cursor.9112f030.png"
   },
   {
-    "revision": "e033021b75d27c179cda4279e44af10f",
-    "url": "/globix/static/media/forpeople.e033021b.png"
+    "revision": "11ca60226f6666498de35393a0e568f0",
+    "url": "/globix/static/media/forpeople.11ca6022.png"
   },
   {
     "revision": "a33a3fd95d117abe90943bcbd12cc582",
     "url": "/globix/static/media/iphone.a33a3fd9.png"
   },
   {
-    "revision": "bf2e7727ff8a019063f23df0598a5542",
-    "url": "/globix/static/media/iphoneRotate.bf2e7727.png"
+    "revision": "26299dd17be8b9ea30ef0d5618777dc1",
+    "url": "/globix/static/media/iphoneRotate.26299dd1.png"
   },
   {
-    "revision": "03fff5f7b3fa9ef7860380efa9ef8949",
-    "url": "/globix/static/media/knowledges.03fff5f7.png"
+    "revision": "cbeb9773a6d0415ad9e65f249091e5a7",
+    "url": "/globix/static/media/knowledges.cbeb9773.png"
   },
   {
     "revision": "68cdcf0f95914364cbd7acd5581fb7f0",
     "url": "/globix/static/media/logo.68cdcf0f.svg"
   },
   {
-    "revision": "d2bc122703d6f3a71d405dd5b0d51582",
-    "url": "/globix/static/media/man_with_card.d2bc1227.png"
+    "revision": "87212474776fbc2d11a72a0ddbf064e5",
+    "url": "/globix/static/media/man_with_card.87212474.png"
   },
   {
-    "revision": "af3842098908a6223e1e868af1c0e14d",
-    "url": "/globix/static/media/p2p_1.af384209.png"
+    "revision": "460472d34402e162273fa5349a4fa582",
+    "url": "/globix/static/media/p2p_1.460472d3.png"
   },
   {
-    "revision": "9f22efdf13681f4f342fcb13086959a3",
-    "url": "/globix/static/media/p2p_2.9f22efdf.png"
+    "revision": "138bbbe3f15fd95547a2a6356f77896d",
+    "url": "/globix/static/media/p2p_2.138bbbe3.png"
   },
   {
-    "revision": "25da304c244f55e33dbde8b719556cc2",
-    "url": "/globix/static/media/security.25da304c.png"
+    "revision": "490ebf9f5ac4b98998898b72ed31cba7",
+    "url": "/globix/static/media/security.490ebf9f.png"
   },
   {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
