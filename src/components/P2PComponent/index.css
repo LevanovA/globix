@@ -1,0 +1,47 @@
+.p2p {
+    background: #F8F8F8;
+    border-radius: 509px;
+}
+
+.blackCard, .grayCard, .whiteCard, .greenCard {
+    width: fit-content;
+}
+
+.p2p .blackCard {
+    background: #19191A;
+    box-shadow: 0px 60px 80px rgba(15, 15, 15, 0.08);
+    border-radius: 29px;
+    color: #F2F2F2;
+}
+
+.p2p .blackCard_title, .p2p .grayCard_title {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 27px;
+}
+
+.p2p .blackCard_text, .p2p .grayCard_text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.p2p .greenCard {
+    background: #A3FF5E;
+    box-shadow: 0px 60px 80px rgba(15, 15, 15, 0.08);
+    border-radius: 29px;
+    color: #000000;
+}
+
+.p2p .greenCard_title {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 27px;
+}
+
+.p2p .grayCard {
+    background: #C4C4C4;
+    box-shadow: 0px 60px 80px rgba(15, 15, 15, 0.08);
+    border-radius: 29px;
+    color: #000000;
+}

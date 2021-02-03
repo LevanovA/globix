@@ -1,0 +1,16 @@
+.sofaCircle {
+    background: linear-gradient(57.8deg, rgba(244, 244, 244, 0.71) 18.82%, #F4F4F4 85.33%);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.sofaCircle_title {
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 76px;
+}
+
+.sofaCircle_text {
+    font-size: 21px;
+    line-height: 20px;
+}

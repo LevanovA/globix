@@ -1,0 +1,9 @@
+.startbot .cardsContainer {
+    display: flex;
+}
+
+.startbot .sliderCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

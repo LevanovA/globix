@@ -1,0 +1,84 @@
+.possibility {
+    margin-top: 5rem;
+}
+
+.possibility h2 {
+    font-size: 72px;
+    line-height: 76px;
+    position: relative;
+    left: -0.4rem;
+}
+
+.possibility h5 {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.possibility .blueCard {
+    position: relative;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 45px;
+    color: #FFFFFF;
+    background: #005FF9;
+    box-shadow: 0px 60px 80px rgba(15, 15, 15, 0.08);
+    border-radius: 29px;
+    padding: 38px 34px 57px 34px;
+    width: fit-content;
+    margin-top: 3rem;
+}
+
+.blueCard_title {
+    margin-bottom: 2rem;
+    font-size: 34px;
+    line-height: 45px;
+}
+
+.blueCard_text {
+    font-size: 34px;
+    line-height: 45px;
+}
+
+.blueCard_cursor {
+    position: absolute;
+    right: 0;
+    bottom: -5rem;
+}
+
+.possibility .greenCard {
+    background: #A3FF5E;
+    box-shadow: 0px 60px 80px rgba(15, 15, 15, 0.08);
+    border-radius: 29px;
+    padding: 48px 74px 100px 74px;
+    color: #000000;
+}
+
+.possibility .greenCard .greenCard_title {
+    font-size: 34px;
+    line-height: 38px;
+    margin-bottom: 1.5rem;
+}
+
+.possibility .greenCard .greenCard_text {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.possibility .grayCard {
+    background: #D8D8D8;
+    box-shadow: 0px 58.6px 78.1333px rgba(15, 15, 15, 0.08);
+    border-radius: 29px;
+    padding: 35px;
+    color: #000000;
+}
+
+.possibility .grayCard .grayCard_title {
+    font-size: 23px;
+    line-height: 26px;
+    margin-bottom: 0.5rem;
+}
+
+.possibility .grayCard .grayCard_text {
+    font-size: 18px;
+    line-height: 22px;
+}

@@ -1,0 +1,23 @@
+.sliderComponent .sliderCard {
+    height: 167px;
+    border-radius: 29px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 28px;
+}
+
+.sliderComponent .sliderCard_title {
+    font-size: 19px;
+    line-height: 21px;
+    margin-bottom: 0.5rem;
+}
+
+.sliderComponent .sliderCard_text {
+    font-size: 10px;
+    line-height: 13px;
+}
+
+.sliderComponent .slick-initialized .slick-slide {
+    padding: 0 15px;
+}

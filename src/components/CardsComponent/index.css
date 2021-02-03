@@ -1,0 +1,52 @@
+.cards .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cards .blueCard {
+    background: #005FF9;
+    box-shadow: 0px 60px 80px rgba(15, 15, 15, 0.08);
+    border-radius: 29px;
+    color: #FFFFFF;
+    padding: 1.5rem 2rem;
+}
+
+.cards .blueCard_title {
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 27px;
+}
+
+.cards .blueCard_text, .cards .greenCard_text, .cards .whiteCard_text {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.cards .greenCard {
+    background: #A3FF5E;
+    box-shadow: 0px 60px 80px rgba(15, 15, 15, 0.08);
+    border-radius: 29px;
+    color: #000000;
+    padding: 1.5rem 2rem;
+}
+
+.cards .greenCard_title {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 27px;
+}
+
+.cards .whiteCard {
+    background: #F6F6F6;
+    box-shadow: 0px 60px 80px rgba(15, 15, 15, 0.08);
+    border-radius: 29px;
+    color: #000000;
+    padding: 1.5rem 2rem;
+}
+
+.cards .whiteCard_title {
+    font-weight: bold;
+    font-size: 50px;
+}
