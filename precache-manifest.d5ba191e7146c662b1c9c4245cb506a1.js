@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d2ea06f4ee4acab221fc1a3cb955ae57",
+    "revision": "a6f07467a04ea651d406eaf72697b3b4",
     "url": "/globix/index.html"
   },
   {
-    "revision": "eac1df7bc7fe37f3038c",
+    "revision": "a909f841fd20af94043f",
     "url": "/globix/static/css/2.78925862.chunk.css"
   },
   {
-    "revision": "9d568bd00739604a873f",
-    "url": "/globix/static/css/main.e44988e4.chunk.css"
+    "revision": "0ef7e5a5046d42a785e4",
+    "url": "/globix/static/css/main.4fd95c40.chunk.css"
   },
   {
-    "revision": "eac1df7bc7fe37f3038c",
-    "url": "/globix/static/js/2.5631b643.chunk.js"
+    "revision": "a909f841fd20af94043f",
+    "url": "/globix/static/js/2.d743f216.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/globix/static/js/2.5631b643.chunk.js.LICENSE.txt"
+    "url": "/globix/static/js/2.d743f216.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9d568bd00739604a873f",
-    "url": "/globix/static/js/main.2afdbfd1.chunk.js"
+    "revision": "0ef7e5a5046d42a785e4",
+    "url": "/globix/static/js/main.9b81c303.chunk.js"
   },
   {
     "revision": "7e44515c92445ff1cc2f",
@@ -210,6 +210,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3fc90d1d2b24c5930cb6ebbe69575f5b",
     "url": "/globix/static/media/telegram.3fc90d1d.svg"
+  },
+  {
+    "revision": "ad9f6f3ca97f4bf0395edbf68642c5bc",
+    "url": "/globix/static/media/wavyLine.ad9f6f3c.svg"
   },
   {
     "revision": "6cfdefcc186accea9d717c5d1941de52",

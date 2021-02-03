@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/globix/static/css/main.e44988e4.chunk.css",
-    "main.js": "/globix/static/js/main.2afdbfd1.chunk.js",
-    "main.js.map": "/globix/static/js/main.2afdbfd1.chunk.js.map",
+    "main.css": "/globix/static/css/main.4fd95c40.chunk.css",
+    "main.js": "/globix/static/js/main.9b81c303.chunk.js",
+    "main.js.map": "/globix/static/js/main.9b81c303.chunk.js.map",
     "runtime-main.js": "/globix/static/js/runtime-main.04439c62.js",
     "runtime-main.js.map": "/globix/static/js/runtime-main.04439c62.js.map",
     "static/css/2.78925862.chunk.css": "/globix/static/css/2.78925862.chunk.css",
-    "static/js/2.5631b643.chunk.js": "/globix/static/js/2.5631b643.chunk.js",
-    "static/js/2.5631b643.chunk.js.map": "/globix/static/js/2.5631b643.chunk.js.map",
+    "static/js/2.d743f216.chunk.js": "/globix/static/js/2.d743f216.chunk.js",
+    "static/js/2.d743f216.chunk.js.map": "/globix/static/js/2.d743f216.chunk.js.map",
     "index.html": "/globix/index.html",
-    "precache-manifest.2717fc7a1371f8b896b2adc74d0de1fa.js": "/globix/precache-manifest.2717fc7a1371f8b896b2adc74d0de1fa.js",
+    "precache-manifest.d5ba191e7146c662b1c9c4245cb506a1.js": "/globix/precache-manifest.d5ba191e7146c662b1c9c4245cb506a1.js",
     "service-worker.js": "/globix/service-worker.js",
     "static/css/2.78925862.chunk.css.map": "/globix/static/css/2.78925862.chunk.css.map",
-    "static/css/main.e44988e4.chunk.css.map": "/globix/static/css/main.e44988e4.chunk.css.map",
-    "static/js/2.5631b643.chunk.js.LICENSE.txt": "/globix/static/js/2.5631b643.chunk.js.LICENSE.txt",
+    "static/css/main.4fd95c40.chunk.css.map": "/globix/static/css/main.4fd95c40.chunk.css.map",
+    "static/js/2.d743f216.chunk.js.LICENSE.txt": "/globix/static/js/2.d743f216.chunk.js.LICENSE.txt",
     "static/media/main.css": "/globix/static/media/circe_thin.d41d8cd9.woff",
     "static/media/cursor.png": "/globix/static/media/cursor.9112f030.png",
     "static/media/forpeople.png": "/globix/static/media/forpeople.e033021b.png",
@@ -28,13 +28,14 @@
     "static/media/slick-theme.css": "/globix/static/media/slick.f97e3bbf.svg",
     "static/media/sofa.png": "/globix/static/media/sofa.3510a938.png",
     "static/media/telegram.svg": "/globix/static/media/telegram.3fc90d1d.svg",
+    "static/media/wavyLine.svg": "/globix/static/media/wavyLine.ad9f6f3c.svg",
     "static/media/whatsup.svg": "/globix/static/media/whatsup.6cfdefcc.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.04439c62.js",
     "static/css/2.78925862.chunk.css",
-    "static/js/2.5631b643.chunk.js",
-    "static/css/main.e44988e4.chunk.css",
-    "static/js/main.2afdbfd1.chunk.js"
+    "static/js/2.d743f216.chunk.js",
+    "static/css/main.4fd95c40.chunk.css",
+    "static/js/main.9b81c303.chunk.js"
   ]
 }
