@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/globix/static/css/main.36e8e1a1.chunk.css",
-    "main.js": "/globix/static/js/main.4ec8a4b1.chunk.js",
-    "main.js.map": "/globix/static/js/main.4ec8a4b1.chunk.js.map",
+    "main.css": "/globix/static/css/main.09955404.chunk.css",
+    "main.js": "/globix/static/js/main.68e42886.chunk.js",
+    "main.js.map": "/globix/static/js/main.68e42886.chunk.js.map",
     "runtime-main.js": "/globix/static/js/runtime-main.04439c62.js",
     "runtime-main.js.map": "/globix/static/js/runtime-main.04439c62.js.map",
-    "static/css/2.78925862.chunk.css": "/globix/static/css/2.78925862.chunk.css",
-    "static/js/2.12297619.chunk.js": "/globix/static/js/2.12297619.chunk.js",
-    "static/js/2.12297619.chunk.js.map": "/globix/static/js/2.12297619.chunk.js.map",
+    "static/css/2.3d3426d2.chunk.css": "/globix/static/css/2.3d3426d2.chunk.css",
+    "static/js/2.dc810d0a.chunk.js": "/globix/static/js/2.dc810d0a.chunk.js",
+    "static/js/2.dc810d0a.chunk.js.map": "/globix/static/js/2.dc810d0a.chunk.js.map",
     "index.html": "/globix/index.html",
-    "precache-manifest.54df046d9c870cca37d5a4e10e02f9b9.js": "/globix/precache-manifest.54df046d9c870cca37d5a4e10e02f9b9.js",
+    "precache-manifest.2d1c5b0eed2abb687d9d01139acd2736.js": "/globix/precache-manifest.2d1c5b0eed2abb687d9d01139acd2736.js",
     "service-worker.js": "/globix/service-worker.js",
-    "static/css/2.78925862.chunk.css.map": "/globix/static/css/2.78925862.chunk.css.map",
-    "static/css/main.36e8e1a1.chunk.css.map": "/globix/static/css/main.36e8e1a1.chunk.css.map",
-    "static/js/2.12297619.chunk.js.LICENSE.txt": "/globix/static/js/2.12297619.chunk.js.LICENSE.txt",
+    "static/css/2.3d3426d2.chunk.css.map": "/globix/static/css/2.3d3426d2.chunk.css.map",
+    "static/css/main.09955404.chunk.css.map": "/globix/static/css/main.09955404.chunk.css.map",
+    "static/js/2.dc810d0a.chunk.js.LICENSE.txt": "/globix/static/js/2.dc810d0a.chunk.js.LICENSE.txt",
     "static/media/main.css": "/globix/static/media/circe_thin.d41d8cd9.woff",
     "static/media/cursor.png": "/globix/static/media/cursor.9112f030.png",
     "static/media/exit.svg": "/globix/static/media/exit.b6b80deb.svg",
@@ -34,9 +34,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.04439c62.js",
-    "static/css/2.78925862.chunk.css",
-    "static/js/2.12297619.chunk.js",
-    "static/css/main.36e8e1a1.chunk.css",
-    "static/js/main.4ec8a4b1.chunk.js"
+    "static/css/2.3d3426d2.chunk.css",
+    "static/js/2.dc810d0a.chunk.js",
+    "static/css/main.09955404.chunk.css",
+    "static/js/main.68e42886.chunk.js"
   ]
 }
