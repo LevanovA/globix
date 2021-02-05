@@ -1,6 +1,7 @@
 import React from 'react'
 import './index.css'
 import iphone from "../../images/iphone.png"
+import ScrollAnimation from 'react-animate-on-scroll';
 import { Parallax } from 'react-scroll-parallax';
 
 export default class WelcomeComponent extends React.Component {
@@ -10,10 +11,13 @@ export default class WelcomeComponent extends React.Component {
                 <div className="container-fluid">
                     <div className="row justify-content-center">
                         <div className="col-md-7">
-
-                            <h1 className="extraBold">Привет, я <span className="littleCard extraBold">Globix</span><br />
+                            <ScrollAnimation
+                                animateOnce={true}
+                                animateIn="slideInLeft">
+                                <h1 className="extraBold">Привет, я <span className="littleCard extraBold">Globix</span><br />
                             кошелёк для<br />
                             людей</h1>
+                            </ScrollAnimation>
                             <Parallax y={[-15, 15]} tagOuter="figure">
                                 <h4><span className="extraBold eb">Globix Cash</span> — это простой и
                             надежный<br /> мультивалютный кошелёк <span className="bold">в Telegram</span></h4>
@@ -21,7 +25,12 @@ export default class WelcomeComponent extends React.Component {
                             </Parallax>
                         </div>
                         <div className="col-md-5">
-                            <img src={iphone} draggable={false} alt="" />
+                            <ScrollAnimation
+                                offset={100}
+                                animateOnce={true}
+                                animateIn="slideInRight">
+                                <img src={iphone} draggable={false} alt="" />
+                            </ScrollAnimation>
                         </div>
                     </div>
                 </div>
