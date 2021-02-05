@@ -4,6 +4,7 @@
 
 .startbot .cardsContainer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -57,6 +58,39 @@
     color: #FFFFFF;
 }
 
+.startbot .container-fluid--startbot {
+    width: 75%;
+}
+
 .question .sliderCard_title {
     text-align: center;
 }
+@media only screen and (max-width: 1522px) {
+    .startbot .container-fluid--startbot {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+    .startbot .sliderCard {
+        max-width: 160px;
+    }
+    .startbot .container-fluid--startbot {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .startbot .sliderCard {
+        max-width: 145px;
+    }
+} 
+@media only screen and (max-width: 1000px) {
+    .startbot .cardsContainer {
+        margin: 0 auto;
+        max-width: 500px;
+    }
+    .startbot .sliderCard {
+        margin-bottom: 2rem;
+    }
+} 

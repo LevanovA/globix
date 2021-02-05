@@ -201,6 +201,15 @@
     .p2p h3 {
         font-size: 40px;
     }
+    .p2p img.img2 {
+        top: 5rem;
+        left: -70%;
+        width: 28rem;
+    }
+    .p2p .cardsWrapper.wrapper2 {
+        top: -7rem;
+        left: -4rem;
+    }
 }   
 
 @media only screen and (max-width: 980px) {
@@ -223,6 +232,12 @@
     .p2p h5.text1 {
         width: 50%;
     }
+    .p2p h4 {
+        font-size: 25px;
+    }
+    .p2p h5 {
+        font-size: 16px;
+    }
 } 
 @media only screen and (max-width: 882px) {
     .p2p img.img1 {
@@ -243,7 +258,24 @@
     .p2p .grayCard_title {
         font-size: 19px;
     }
-    .p2p .blackCard_text, .p2p .grayCard_text {
+    .p2p .blackCard.card1 .blackCard_title {
+        font-size: 19px;
+    }
+    .p2p .blackCard.card1 .blackCard_text {
         font-size: 15px;
     }
-}   
+    .p2p .grayCard_text {
+        font-size: 15px;
+    }
+}  
+@media only screen and (max-width: 835px) {
+    .p2p h3 {
+        font-size: 35px;
+    }
+    .p2p .cardsWrapper.wrapper2 {
+        left: -10rem;
+    }
+    .p2p img.img2 {
+        width: 24rem;
+    }
+}  
