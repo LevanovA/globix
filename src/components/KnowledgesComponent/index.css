@@ -30,3 +30,33 @@
 .knowledges h4 {
     font-size: 35px;
 }
+
+@media only screen and (max-width: 1250px) {
+    .knowledges img {
+        top: 4rem;
+        left: -7rem;
+        width: 34rem;
+    }
+}
+@media only screen and (max-width: 968px) {
+    .knowledges h2 {
+        font-size: 59px;
+    }
+    
+}
+@media only screen and (max-width: 900px) {
+    .knowledges h5 {
+        width: 90%;
+    }
+    .knowledges img {
+        top: 4rem;
+        left: -5rem;
+        width: 31rem;
+    } 
+}
+@media only screen and (max-width: 800px) {
+    .knowledges img {
+        top: 7rem;
+        width: 28rem;
+    } 
+}

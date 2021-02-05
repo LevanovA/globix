@@ -196,3 +196,54 @@
     top: -5rem;
     left: 4rem;
 }
+
+@media only screen and (max-width: 1040px) {
+    .p2p h3 {
+        font-size: 40px;
+    }
+}   
+
+@media only screen and (max-width: 980px) {
+    .p2p .greenCard.card1 {
+        right: 0rem;
+    }
+    .p2p .blackCard.card1 {
+        right: 8rem;
+    }
+    .p2p .grayCard {
+        padding: 38px 46px;
+        min-width: 320px;
+        left: -12rem;
+    }
+}
+@media only screen and (max-width: 958px) {
+    .p2p img.img1 {
+        right: -4rem;
+    }
+    .p2p h5.text1 {
+        width: 50%;
+    }
+} 
+@media only screen and (max-width: 882px) {
+    .p2p img.img1 {
+        right: -4rem;
+        width: 31rem;
+        top: -4rem;
+    }
+    .p2p h5.text1 {
+        width: 46%;
+    }
+}
+@media only screen and (max-width: 860px) {
+    .p2p .grayCard {
+        padding: 38px 46px;
+        min-width: 273px;
+        left: -12rem;
+    }
+    .p2p .grayCard_title {
+        font-size: 19px;
+    }
+    .p2p .blackCard_text, .p2p .grayCard_text {
+        font-size: 15px;
+    }
+}   
