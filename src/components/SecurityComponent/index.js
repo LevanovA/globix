@@ -9,21 +9,21 @@ export default class SecurityComponent extends React.Component {
                 <div className="container-fluid section">
                     <div className="row">
                         <div className="col-md-6">
-                            <img src={securityImg} alt="" />
+                            <img src={securityImg} draggable={false} alt="" />
                             <div className="blackCard">
                                 <div className="blackCard_title">
-                                    Нужна
-                                    возможность
+                                    Нужна<br />
+                                    возможность<br />
                                     в БОТЕ?
                                 </div>
                                 <div className="blackCard_text">
-                                    Отправь нам сообщение,
+                                    Отправь нам сообщение,<br />
                                     что тебе необходимо!
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <h2>Безопасность</h2>
+                            <h2 className="extraBold">Безопасность</h2>
                             <h5>
                                 Безопасность — это в первую очередь
                                 стабильность работы кошелька. Именно это
@@ -33,10 +33,10 @@ export default class SecurityComponent extends React.Component {
                                 этого и быть открытыми к новому.
                             </h5>
                             <h5>
-                                - Не передавайте никому данные для входа в систему
-                                - Не показывайте никому одноразовые пароли
-                                - Используйте сложные пароли
-                                - Всегда проверяйте правильность суммы и получателя
+                                - Не передавайте никому данные для входа в систему<br />
+                                - Не показывайте никому одноразовые пароли<br />
+                                - Используйте сложные пароли<br />
+                                - Всегда проверяйте правильность суммы и получателя<br />
                             </h5>
                             <a href="" className="button" target="_blank">Начать использовать</a>
                         </div>

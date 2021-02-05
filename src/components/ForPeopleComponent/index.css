@@ -1,0 +1,83 @@
+.forpeople {
+    padding-top: 2rem;
+}
+
+.forpeople h2 {
+    font-size: 72px;
+    line-height: 76px;
+    margin-top: 7rem;
+}
+
+.forpeople h5 {
+    font-size: 18px;
+    line-height: 26px;
+    margin: 3rem 0;
+}
+
+.forpeople img {
+    width: 100%;
+    position: relative;
+}
+
+@media only screen and (max-width: 1776px) {
+    .forpeople img {
+        top: 3rem;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .forpeople img {
+        width: 32rem;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .forpeople {
+        margin-top: -10rem;
+    }
+    .forpeople img {
+        left: -12%;
+    }
+}
+
+@media only screen and (max-width: 946px) {
+    .forpeople img {
+        top: 4.5rem;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .forpeople img {
+        left: -20%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .forpeople img {
+        left: -30%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .forpeople img {
+        left: 0;
+        top: -44rem;
+        width: 29rem;
+    }
+    .forpeople {
+        margin-top: -4rem;
+    }
+    .forpeople h2 {
+        text-align: center;
+    }
+    .forpeople h5 {
+        text-align: center;
+        margin-top: 32rem;
+    }
+    .forpeople .column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -8,15 +8,16 @@ export default class ForPeopleComponent extends React.Component {
             <div className="forpeople">
                 <div className="container-fluid section">
                     <div className="row">
-                        <div className="col-md-6">
-                            <h2>Глобикс
-                            для людей,</h2>
-                            <h5>Наше сообщество растёт постоянно.
-                            Мы совершенствуем нашего бота и прислушиваемся
-                            к нашим пользователям. Сделаем его лучше вместе!</h5>
+                        <div className="col-md-6 column">
+                            <h2 className="extraBold">Глобикс<br />
+                            для людей</h2>
+                            <h5>Наше сообщество растёт постоянно.<br />
+                            Мы совершенствуем нашего бота и прислушиваемся<br />
+                            к нашим пользователям. <span className="bold">Сделаем его лучше вместе!</span></h5>
+                            <a href="" className="button" target="_blank">Изучить бота</a>
                         </div>
-                        <div className="col-md-6">
-                            <img src={forpeopleImg} alt="" />
+                        <div className="col-md-6 column">
+                            <img src={forpeopleImg} draggable={false} alt="" />
                         </div>
                     </div>
                 </div>

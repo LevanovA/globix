@@ -11,28 +11,29 @@
 
 .welcome img {
     position: relative;
-    left: 4.5rem;
+    /* left: 4.5rem; */
     top: 0;
 }
 
-.welcome span.extraBold {
+.welcome span.eb {
     font-size: 25px;
     line-height: 26px;
 }
 
-.welcome .greenCard {
+.littleCard {
+    position: relative;
+}
+
+.littleCard::before {
+    content: 'Отказоустойчивый';
     background: #A3FF5E;
-    box-shadow: 0px 60px 80px rgba(15, 15, 15, 0.08);
+    box-shadow: 0px 60px 80px rgba(15, 15, 15, 0.3);
     border-radius: 6px;
     color: #000000;
     position: absolute;
-    top: 4.4rem;
-    right: -7.5rem;
+    top: 1rem;
+    right: -8.5rem;
     padding: 4px 8px;
-}
-
-.welcome .greenCard_title {
     font-size: 13px;
     line-height: 20px;
-    margin: 0px 4px;
 }

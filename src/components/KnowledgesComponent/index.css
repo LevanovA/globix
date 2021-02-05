@@ -1,0 +1,32 @@
+.knowledges {
+    margin-bottom: 3rem;
+}
+
+.knowledges img {
+    position: relative;
+    left: -5rem;
+}
+
+.knowledges h2 {
+    font-size: 72px;
+    line-height: 76px;
+    margin-top: 1rem;
+    margin-bottom: 1.6rem;
+}
+
+.knowledges h5 {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 3rem;
+    width: 80%;
+}
+
+.knowledges h3 {
+    font-size: 70px;
+    line-height: 45px;
+    margin-bottom: 0.7rem;
+}
+
+.knowledges h4 {
+    font-size: 35px;
+}

@@ -12,6 +12,7 @@ import P2PComponent from './components/P2PComponent'
 import StartBotComponent from './components/StartBotComponent'
 import PrefooterComponent from './components/PrefooterComponent'
 import FooterComponent from './components/FooterComponent'
+
 import './css/main.css'
 import './css/mobile.css'
 

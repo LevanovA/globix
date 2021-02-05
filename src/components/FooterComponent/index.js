@@ -9,9 +9,9 @@ export default class FooterComponent extends React.Component {
                 <div className="container-fluid section">
                     <div className="row">
                         <div className="col-md-12">
-                            <div className="row justify-content-space-between">
+                            <div className="row justify-content-space-between header">
                                 <div className="col header-item">
-                                    <img src={logo} alt="" />
+                                    <img src={logo} draggable={false} alt="" />
                                 </div>
                                 <div className="col header-item">
                                     <a href="">Кто я</a>
@@ -30,7 +30,7 @@ export default class FooterComponent extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-12">
+                        <div className="col-md-12 politics">
                             <div className="row">
                                 <a href="" target="_blank">Раскрытие информации</a>
                             </div>
@@ -41,7 +41,7 @@ export default class FooterComponent extends React.Component {
                                 <a href="" target="_blank">Политика обработки cookies</a>
                             </div>
                         </div>
-                        <div className="col-md-12">
+                        <div className="col-md-12 rights">
                             © 2020 «Globix» Все права защищены
                         </div>
                     </div>

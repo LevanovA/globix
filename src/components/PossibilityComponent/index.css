@@ -1,5 +1,5 @@
 .possibility {
-    margin-top: 5rem;
+    margin-top: 8rem;
 }
 
 .possibility h2 {
@@ -21,7 +21,7 @@
     line-height: 45px;
     color: #FFFFFF;
     background: #005FF9;
-    box-shadow: 0px 60px 80px rgba(15, 15, 15, 0.08);
+    box-shadow: 0px 60px 80px rgba(59, 39, 39, 0.3);
     border-radius: 29px;
     padding: 38px 34px 57px 34px;
     width: fit-content;
@@ -47,10 +47,14 @@
 
 .possibility .greenCard {
     background: #A3FF5E;
-    box-shadow: 0px 60px 80px rgba(15, 15, 15, 0.08);
+    box-shadow: 0px 60px 80px rgba(15, 15, 15, 0.3);
     border-radius: 29px;
     padding: 48px 74px 100px 74px;
     color: #000000;
+    position: absolute;
+    z-index: 2;
+    bottom: -3rem;
+    left: 6.5rem;
 }
 
 .possibility .greenCard .greenCard_title {
@@ -66,10 +70,14 @@
 
 .possibility .grayCard {
     background: #D8D8D8;
-    box-shadow: 0px 58.6px 78.1333px rgba(15, 15, 15, 0.08);
+    box-shadow: 0px 58.6px 78.1333px rgba(15, 15, 15, 0.3);
     border-radius: 29px;
     padding: 35px;
     color: #000000;
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    left: -11rem;
 }
 
 .possibility .grayCard .grayCard_title {
@@ -81,4 +89,84 @@
 .possibility .grayCard .grayCard_text {
     font-size: 18px;
     line-height: 22px;
+}
+
+.manwithcard {
+    margin-top: -8rem;
+    margin-left: -22rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    .manwithcard {
+        margin-left: -16rem;
+    }
+    .possibility {
+        margin-top: 5rem;
+    }
+}
+
+@media only screen and (max-width: 948px) {
+    .possibility .greenCard {
+        bottom: -10rem;
+        left: 4.5rem;
+    }
+    .possibility .grayCard {
+        bottom: -7rem;
+        left: -11rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .possibility h2, .possibility h5 {
+        text-align: center;
+    }
+    .manwithcard {
+        margin-left: 33%;
+        margin-top: -26rem;
+        width: 30rem;
+    }
+    .possibility .greenCard {
+        bottom: -20rem;
+        left: 48%;
+    }
+    .possibility .grayCard {
+        bottom: -16rem;
+        left: 9%;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .possibility .blueCard {
+        width: 100%;
+        z-index: 2;
+        margin-top: 15rem;
+    }
+    .manwithcard {
+        margin-left: 16%;
+        margin-top: -52rem;
+        width: 24rem;
+    }
+    .blueCard_cursor {
+        display: none;
+    }
+    .possibility .grayCard, .possibility .greenCard {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 2;
+        padding: 2rem;
+    }
+    .possibility .grayCard {
+        margin-top: 0.5rem;
+    }
+    .possibility .greenCard {
+        margin-top: 2rem;
+    }
+    .possibility .greenCard .greenCard_title {
+        text-align: center;
+    }
+    .possibility .greenCard .greenCard_text {
+        text-align: center;
+    }
 }

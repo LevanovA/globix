@@ -9,12 +9,12 @@ export default class PrefooterComponent extends React.Component {
                 <div className="container-fluid section">
                     <div className="row">
                         <div className="col-md-6">
-                            <h2>Всё в твоих руках</h2>
+                            <h2 className="extraBold">Всё в твоих<br /> руках</h2>
                             <h5>простой доступ к активам из любой точки мира</h5>
                             <a href="" className="button" target="_blank">Начать использовать</a>
                         </div>
                         <div className="col-md-6">
-                            <img src={iphoneRotate} alt="" />
+                            <img src={iphoneRotate} draggable={false} alt="" />
                         </div>
                     </div>
                 </div>

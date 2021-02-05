@@ -11,7 +11,7 @@ export default class PossibilityComponent extends React.Component {
                 <div className="container-fluid">
                     <div className="row justify-content-center">
                         <div className="col-md-6">
-                            <h2 className="bold">Возможности</h2>
+                            <h2 className="extraBold">Возможности</h2>
                             <h5>на прямую выводить и вводить на банковские карты<br />
                             мгновенные переводы внутри телеграмм без комиссии</h5>
                             <div className="blueCard">
@@ -28,7 +28,7 @@ export default class PossibilityComponent extends React.Component {
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <img src={manWithCard} alt="" />
+                            <img src={manWithCard} draggable={false} className="manwithcard" alt="" />
                             <div className="grayCard">
                                 <div className="grayCard_title bold">
                                     Зарабатывай вместе<br />

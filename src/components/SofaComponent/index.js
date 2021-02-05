@@ -8,18 +8,23 @@ export default class SofaComponent extends React.Component {
             <div className="sofa">
                 <div className="container-fluid section">
                     <div className="row">
-                        <img src={sofa} className="sofaImg" alt="" />
+                        <div className="sofaCircle_title extraBold hide">
+                            Денежные<br />
+                                переводы
+                            </div>
+                        <img src={sofa} className="sofaImg" draggable={false} alt="" />
                         <div className="sofaCircle">
-                            <div className="sofaCircle_title">
-                                Денежные переводы
+                            <div className="sofaCircle_title extraBold">
+                                Денежные<br />
+                                переводы
                             </div>
                             <div className="sofaCircle_text">
-                                напрямую в национальную валюту
+                                напрямую в национальную валюту<br />
                                 с минимальными комиссиями.
                                 <br />
                                 <br />
-                                <b>Доступно в более чем
-                                100 стран мира</b>
+                                <span className="bold">Доступно в более чем<br />
+                                100 стран мира</span>
                             </div>
                             <a href="" className="button" target="_blank">Начать сейчас</a>
                         </div>

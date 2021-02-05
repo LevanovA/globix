@@ -1,0 +1,22 @@
+.rights {
+    text-align: center;
+    font-size: 19px;
+    line-height: 40px;
+    margin-bottom: 1.5rem;
+}
+
+.politics {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.politics a {
+    text-decoration: underline;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer .header a {
+    font-size: 19px;
+    line-height: 40px;
+}

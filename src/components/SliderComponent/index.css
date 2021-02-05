@@ -1,3 +1,8 @@
+.sliderComponent .container-fluid {
+    width: 100%;
+    padding: 0;
+}
+
 .sliderComponent .sliderCard {
     height: 167px;
     border-radius: 29px;
@@ -5,6 +10,7 @@
     flex-direction: column;
     justify-content: flex-end;
     padding: 28px;
+    cursor: pointer;
 }
 
 .sliderComponent .sliderCard_title {
@@ -20,4 +26,28 @@
 
 .sliderComponent .slick-initialized .slick-slide {
     padding: 0 15px;
+}
+
+@media only screen and (max-width: 1450px) {
+    .sliderComponent .slick-initialized .slick-slide {
+        padding: 0 12px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .sliderComponent .slick-initialized .slick-slide {
+        padding: 0 9px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .sliderComponent .slick-initialized .slick-slide {
+        padding: 0 7px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .sliderComponent .slick-initialized .slick-slide {
+        padding: 0 6px;
+    }
 }

@@ -111,16 +111,31 @@ a:hover {
 }
 
 a.button {
+    display: inline-block;
     background: #005FF9;
+    outline: none;
     border-radius: 16px;
     font-family: 'Circe';
     font-style: normal;
     font-weight: bold;
     font-size: 17px;
-    line-height: 58px;
     text-align: center;
     color: #F2F2F2;
-    padding: 1.2rem 5rem;
+    padding: 1.1rem 4.9rem;
+    border: 3px solid #005FF9;
+    transform: scale(1);
+    transition: all 0.1s;
+}
+
+a.button:hover {
+    border: 3px solid #005FF9;
+    color: #005FF9;
+    background: white;
+}
+
+a.button:active {
+    transform: scale(0.97);
+    transition: all 0.1s;
 }
 
 .bold {
@@ -129,4 +144,8 @@ a.button {
 
 .extraBold {
     font-family: 'Circe ExtraBold';
+}
+
+.blackCard, .grayCard, .whiteCard, .greenCard {
+    width: fit-content;
 }

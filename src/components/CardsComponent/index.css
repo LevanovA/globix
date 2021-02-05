@@ -1,3 +1,7 @@
+.cards {
+    margin-top: 4rem;
+}
+
 .cards .column {
     display: flex;
     flex-direction: column;
@@ -6,47 +10,155 @@
 
 .cards .blueCard {
     background: #005FF9;
-    box-shadow: 0px 60px 80px rgba(15, 15, 15, 0.08);
+    box-shadow: 0px 60px 80px rgba(15, 15, 15, 0.3);
     border-radius: 29px;
     color: #FFFFFF;
-    padding: 1.5rem 2rem;
+    padding-top: 31px;
+    padding-left: 44px;
+    margin-bottom: 2rem;
+    height: 200px;
 }
 
 .cards .blueCard_title {
-    font-weight: bold;
     font-size: 35px;
     line-height: 27px;
 }
 
 .cards .blueCard_text, .cards .greenCard_text, .cards .whiteCard_text {
-    font-weight: normal;
     font-size: 13px;
     line-height: 20px;
 }
 
 .cards .greenCard {
     background: #A3FF5E;
-    box-shadow: 0px 60px 80px rgba(15, 15, 15, 0.08);
+    box-shadow: 0px 60px 80px rgba(15, 15, 15, 0.3);
     border-radius: 29px;
     color: #000000;
-    padding: 1.5rem 2rem;
+    width: 100%;
+    height: 200px;
+}
+
+.cards .greenCard.card1 {
+    padding-top: 41px;
+    padding-left: 46px;
+}
+
+.cards .greenCard.card1 .greenCard_title {
+    margin-bottom: 0.4rem;
+}
+
+.cards .greenCard.card2 {
+    padding-top: 32px;
+    padding-left: 40px;
+    position: relative;
+    top: -12rem;
+}
+
+.cards .greenCard.card2 .greenCard_title {
+    margin-bottom: 0.6rem;
 }
 
 .cards .greenCard_title {
-    font-weight: bold;
     font-size: 21px;
     line-height: 27px;
 }
 
 .cards .whiteCard {
     background: #F6F6F6;
-    box-shadow: 0px 60px 80px rgba(15, 15, 15, 0.08);
+    box-shadow: 0px 60px 80px rgba(15, 15, 15, 0.3);
     border-radius: 29px;
     color: #000000;
-    padding: 1.5rem 2rem;
+    padding: 117px 0 53px 42px;
+    height: 305px;
+    width: 100%;
+    position: relative;
+    top: -1rem;
 }
 
 .cards .whiteCard_title {
-    font-weight: bold;
     font-size: 50px;
+}
+
+.cards img {
+    z-index: 10;
+    position: relative;
+    left: -4rem;
+    top: -1rem;
+    width: 258px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .cards .column:nth-child(1) {
+        position: relative;
+        right: -5rem;
+    }
+    .cards .column:nth-child(3) {
+        position: relative;
+        left: -5rem;
+    }
+    .cards {
+        margin-top: 7rem;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .cards .column:nth-child(1) {
+        min-width: 50%;
+    }
+    .cards .column:nth-child(2) {
+        min-width: 50%;
+    }
+    .cards .column:nth-child(3) {
+        left: 38%;
+        top: 4rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .cards {
+        margin-top: 3rem;
+    }
+    .cards .column:nth-child(1) {
+        right: 0;
+    }
+    .cards .column:nth-child(2) {
+        margin-top: 2rem;
+    }
+    .cards .column:nth-child(3) {
+        left: 0;
+        top: 0;
+    }
+    .cards .whiteCard {
+        top: 0;
+    }
+    .cards .greenCard.card2 {
+        top: 0;
+    }
+    .cards img {
+        left: -3rem;
+        top: 10.5rem;
+    }
+    .cards .greenCard_title, .cards .whiteCard_title, .cards .blueCard_title, .cards .greenCard.card1 .greenCard_title {
+        font-size: 35px;
+        line-height: 27px;
+        margin-bottom: 1rem;
+    }
+    .cards .whiteCard, .cards .greenCard {
+        height: 200px;
+        padding: 32px 40px;
+    }
+    .cards .blueCard_text, .cards .greenCard_text, .cards .whiteCard_text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .cards .greenCard.card1 .greenCard_title {
+        font-size: 25px;
+        line-height: 27px;
+    }
+    .cards {
+        margin-top: 2rem;
+    }
 }

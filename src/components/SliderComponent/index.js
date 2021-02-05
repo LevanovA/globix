@@ -48,10 +48,36 @@ export default class SliderComponent extends React.Component {
         const settings = {
             dots: false,
             infinite: true,
-            slidesToShow: 3,
+            slidesToShow: 5,
             centerMode: true,
             slidesToScroll: 1,
-            centerPadding: '50px'
+            centerPadding: '50px',
+            responsive: [
+                {
+                    breakpoint: 1450,
+                    settings: {
+                        slidesToShow: 4,
+                    }
+                },
+                {
+                    breakpoint: 1150,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                },
+            ]
         };
 
         return (

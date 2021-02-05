@@ -1,14 +1,39 @@
+.security {
+    margin-top: -5rem;
+}
+
+.security h2 {
+    font-size: 72px;
+    line-height: 76px;
+    margin-bottom: 2rem;
+    margin-top: 8rem;
+}
+
+.security h5 {
+    font-size: 17px;
+    line-height: 26px;
+    margin-bottom: 3rem;
+    width: 80%;
+}
+
 .security .blackCard {
     background: #19191A;
-    box-shadow: 0px 60px 80px rgba(15, 15, 15, 0.08);
+    box-shadow: 0px 60px 80px rgba(15, 15, 15, 0.3);
     border-radius: 29px;
-    color: #FFFFFF
+    color: #FFFFFF;
+    padding-top: 19px;
+    padding-left: 34px;
+    height: 200px;
+    min-width: 320px;
+    position: relative;
+    top: -7rem;
 }
 
 .security .blackCard .blackCard_title {
     font-weight: bold;
     font-size: 21px;
     line-height: 27px;
+    margin-bottom: 2rem;
 }
 
 .security .blackCard .blackCard_text {

@@ -1,9 +1,62 @@
+.startbot {
+    margin: 5rem 0;
+}
+
 .startbot .cardsContainer {
     display: flex;
+    justify-content: space-between;
 }
 
 .startbot .sliderCard {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    max-width: 175px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.startbot .sliderCard:hover {
+    transform: scale(1.1);
+}
+
+.startbot .sliderCard_title {
+    font-size: 19px;
+    line-height: 21px;
+}
+
+.startbot .sliderCard_text {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.startbot h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 72px;
+    line-height: 76px;
+}
+
+.startbot h5 {
+    text-align: center;
+    width: 35%;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.question {
+    background: #2675EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.question .sliderCard_title {
+    text-align: center;
 }

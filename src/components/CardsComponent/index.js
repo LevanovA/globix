@@ -1,5 +1,6 @@
 import React from 'react'
 import './index.css'
+import wavesImg from "../../images/wavyLine.svg"
 
 export default class CardsComponent extends React.Component {
     render() {
@@ -9,18 +10,20 @@ export default class CardsComponent extends React.Component {
                     <div className="row">
                         <div className="col-md-4 column">
                             <div className="blueCard">
-                                <div className="blueCard_title">
-                                    24/7
+                                <div className="blueCard_title bold">
+                                    24/7<br />
                                     поддержка
                                 </div>
                                 <div className="blueCard_text">
-                                    Наши операторы всегда придут на помощь
+                                    Наши операторы всегда<br />
+                                    придут на помощь
                                 </div>
                             </div>
-                            <div className="greenCard">
-                                <div className="greenCard_title">
-                                    Обновления
-                                    и дополнительные инструменты
+                            <div className="greenCard card1">
+                                <div className="greenCard_title bold">
+                                    Обновления<br />
+                                    и&nbsp;дополнительные<br />
+                                    инструменты
                                 </div>
                                 <div className="greenCard_text">
                                     для удобной работы
@@ -29,23 +32,25 @@ export default class CardsComponent extends React.Component {
                         </div>
                         <div className="col-md-4 column">
                             <div className="whiteCard">
-                                <div className="whiteCard_title">
+                                <div className="whiteCard_title bold">
                                     Globix
                                 </div>
                                 <div className="whiteCard_text">
-                                    Один из самых безопасных
-                                    и отказоустойчивых
+                                    Один из самых безопасных<br />
+                                    и&nbsp;отказоустойчивых<br />
                                     современных кошельков
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-4 column">
-                            <div className="greenCard">
-                                <div className="greenCard_title">
+                            <img src={wavesImg} alt="" draggable={false} />
+                            <div className="greenCard card2">
+                                <div className="greenCard_title bold">
                                     БОТ
                                 </div>
                                 <div className="greenCard_text">
-                                    Простой и понятный телеграмм бот
+                                    Простой и понятный<br />
+                                    телеграмм бот
                                 </div>
                             </div>
                         </div>
