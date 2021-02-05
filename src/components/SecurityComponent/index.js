@@ -9,6 +9,7 @@ export default class SecurityComponent extends React.Component {
                 <div className="container-fluid section">
                     <div className="row">
                         <div className="col-md-6">
+                            <h2 className="extraBold extraBold--modile">Безопасность</h2>
                             <img src={securityImg} draggable={false} alt="" />
                             <div className="blackCard">
                                 <div className="blackCard_title">
@@ -22,7 +23,7 @@ export default class SecurityComponent extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 mobile_direction">
                             <h2 className="extraBold">Безопасность</h2>
                             <h5>
                                 Безопасность — это в первую очередь
@@ -40,6 +41,19 @@ export default class SecurityComponent extends React.Component {
                             </h5>
                             <a href="" className="button" target="_blank">Начать использовать</a>
                         </div>
+                        <div className="col-md-6 blackCard_wrapp">
+                            <div className="blackCard blackCard_mobile">
+                                    <div className="blackCard_title">
+                                        Нужна<br />
+                                        возможность<br />
+                                        в БОТЕ?
+                                    </div>
+                                    <div className="blackCard_text">
+                                        Отправь нам сообщение,<br />
+                                        что тебе необходимо!
+                                    </div>
+                                </div>
+                            </div>
                     </div>
                 </div>
             </div>

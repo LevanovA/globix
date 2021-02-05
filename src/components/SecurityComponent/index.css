@@ -9,6 +9,9 @@
     margin-bottom: 2rem;
     margin-top: 8rem;
 }
+.security .extraBold--modile {
+    display: none;
+}
 
 .security h5 {
     font-size: 17px;
@@ -28,6 +31,9 @@
     min-width: 320px;
     position: relative;
     top: -7rem;
+}
+.security .blackCard_wrapp {
+    display: none;
 }
 
 .security .blackCard .blackCard_title {
@@ -53,7 +59,6 @@
     .security .blackCard {
         top: 0rem;
     }
-    
 }
 @media only screen and (max-width: 968px) {
     .security h2 {
@@ -62,5 +67,62 @@
         margin-bottom: 2rem;
         margin-top: 8rem;
     }
-    
+}
+@media only screen and (max-width: 767px) {
+    .security img {
+        position: static;
+        margin: 0 auto;
+        margin-top: 4rem;
+        display: flex;
+    }
+    .security .blackCard {
+        display: none;
+    }
+    .security .mobile_direction {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .security .extraBold--modile {
+        display: flex;
+        justify-content: center;
+        margin-bottom: -6rem;
+        margin-top: 0;
+    }
+    .security h2 {
+        display: none;
+    }
+    .security .blackCard_wrapp {
+        display: flex;
+        justify-content: center;
+        margin-top: 4rem;
+    }
+    .security .blackCard_mobile {
+        display: block;
+        height: 296px;
+        max-width: 312px;
+    }
+}
+@media only screen and (max-width: 510px) {
+    .security img {
+        width: 23rem;
+    }
+}
+@media only screen and (max-width: 395px) {
+    .security h2 {
+        font-size: 42px;
+    }
+    .security img {
+        width: 18rem;
+    }
+    .security h5 {
+        font-size: 15px;
+    }
+    .security .a .button {
+        padding: 1.1rem 1.9rem;
+    }
+    .security .blackCard_mobile {
+        min-width: 285px;
+    }
 }
