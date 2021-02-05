@@ -16,6 +16,7 @@ export default class SofaComponent extends React.Component {
                         </div>
                         <ScrollAnimation
                             offset={-1000}
+                            animateOnce={true}
                             animateIn="slideInLeft">
                             <img src={sofa} className="sofaImg" draggable={false} alt="" />
                         </ScrollAnimation>

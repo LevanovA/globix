@@ -9,6 +9,7 @@
     margin-bottom: 2rem;
     margin-top: 8rem;
 }
+
 .security .extraBold--modile {
     display: none;
 }
@@ -32,6 +33,7 @@
     position: relative;
     top: -7rem;
 }
+
 .security .blackCard_wrapp {
     display: none;
 }
@@ -60,6 +62,7 @@
         top: 0rem;
     }
 }
+
 @media only screen and (max-width: 968px) {
     .security h2 {
         font-size: 59px;
@@ -68,6 +71,7 @@
         margin-top: 8rem;
     }
 }
+
 @media only screen and (max-width: 767px) {
     .security img {
         position: static;
@@ -103,12 +107,24 @@
         height: 296px;
         max-width: 312px;
     }
+    .security {
+        margin-top: -29rem;
+    }
+    .security img {
+        margin-bottom: 2rem;
+    }
 }
+
 @media only screen and (max-width: 510px) {
     .security img {
         width: 23rem;
     }
+    .security .blackCard_mobile {
+        width: 100%;
+        max-width: inherit;
+    }
 }
+
 @media only screen and (max-width: 395px) {
     .security h2 {
         font-size: 42px;

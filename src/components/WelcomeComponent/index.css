@@ -37,3 +37,50 @@
     font-size: 13px;
     line-height: 20px;
 }
+
+@media only screen and (max-width: 1016px) {
+    .welcome h1 {
+        font-size: 55px;
+        line-height: 60px;
+        margin-top: 2rem;
+    }
+    .welcome img {
+        width: 25rem;
+        left: -2rem;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .welcome h1 {
+        font-size: 45px;
+        line-height: 50px;
+        margin-top: 2rem;
+    }
+    .welcome img {
+        width: 23rem;
+        left: -2rem;
+    }
+    .welcome h4 {
+        margin: 1.5rem 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .welcome h1 {
+        text-align: center;
+    }
+    .littleCard::before {
+        top: -1.3rem;
+        right: -2.5rem;
+    }
+    .welcome h4 {
+        text-align: center;
+        margin-top: 24rem;
+    }
+    .welcome img {
+        position: absolute;
+        top: -31rem;
+        transform: rotate( -45deg);
+        width: 20rem;
+    }
+}

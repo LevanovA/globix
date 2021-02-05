@@ -42,12 +42,13 @@
         width: 34rem;
     }
 }
+
 @media only screen and (max-width: 968px) {
     .knowledges h2 {
         font-size: 59px;
     }
-    
 }
+
 @media only screen and (max-width: 900px) {
     .knowledges h5 {
         width: 90%;
@@ -56,19 +57,24 @@
         top: 4rem;
         left: -5rem;
         width: 31rem;
-    } 
+    }
 }
+
 @media only screen and (max-width: 800px) {
     .knowledges img {
         top: 7rem;
         width: 28rem;
-    } 
+    }
 }
+
 @media only screen and (max-width: 767px) {
     .knowledges img {
         top: 5rem;
-        width: 42rem;
-    } 
+        left: 0;
+        width: 100%;
+        margin-bottom: 2rem;
+        left: 0;
+    }
     .knowledges .mobile_direction {
         display: flex;
         flex-direction: column;
@@ -84,13 +90,20 @@
         margin-bottom: -6rem;
         margin-top: 0;
     }
+    .knowledges h5 {
+        text-align: center;
+    }
+    .knowledges h2 {
+        text-align: center;
+    }
 }
+
 @media only screen and (max-width: 590px) {
     .knowledges img {
-        top: 4rem;
-        width: 33rem;
-    } 
+        margin-top: 0;
+    }
 }
+
 @media only screen and (max-width: 455px) {
     .knowledges h3 {
         font-size: 60px;
@@ -101,16 +114,17 @@
     .knowledges h5 {
         font-size: 16px;
     }
-    .knowledges img {
-        width: 28rem;
-    } 
 }
+
 @media only screen and (max-width: 400px) {
-    .knowledges img {
-        top: 3rem;
-        width: 23rem;
-    } 
     .knowledges h4 {
         font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .knowledges img {
+        margin-top: 1.5rem;
+        margin-bottom: 3rem;
     }
 }

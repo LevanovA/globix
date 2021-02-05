@@ -14,7 +14,7 @@ export default class PossibilityComponent extends React.Component {
                 <div className="container-fluid">
                     <div className="row justify-content-center">
                         <div className="col-md-6">
-                            <Parallax y={[-10, 10]} tagOuter="figure">
+                            <Parallax y={[-10, 10]}>
                                 <ScrollAnimation
                                     animateOnce={true}
                                     animateIn="slideInLeft">
@@ -42,38 +42,40 @@ export default class PossibilityComponent extends React.Component {
                         </div>
                         <div className="col-md-6">
                             <img src={manWithCard} draggable={false} className="manwithcard" alt="" />
-                            <ScrollAnimation
-                                animateOnce={true}
-                                animateIn="slideInLeft">
-                                <div className="grayCard">
-                                    <div className="grayCard_title bold">
-                                        Зарабатывай вместе<br />
+                            <Parallax y={[-10, 10]}>
+                                <ScrollAnimation
+                                    animateOnce={true}
+                                    animateIn="slideInLeft">
+                                    <div className="grayCard">
+                                        <div className="grayCard_title bold">
+                                            Зарабатывай вместе<br />
                                     с нами
                                 </div>
-                                    <div className="grayCard_text">
-                                        <span className="bold">на остаток по депозиту</span><br />
+                                        <div className="grayCard_text">
+                                            <span className="bold">на остаток по депозиту</span><br />
                                     каждый день мы начисляем<br />
                                     % на депозит
                                 </div>
-                                </div>
-                            </ScrollAnimation>
-                            <ScrollAnimation
-                                delay={200}
-                                animateOnce={true}
-                                animateIn="slideInRight">
-                                <div className="greenCard">
-                                    <div className="greenCard_title bold">
-                                        Совершай<br />
+                                    </div>
+                                </ScrollAnimation>
+                                <ScrollAnimation
+                                    delay={200}
+                                    animateOnce={true}
+                                    animateIn="slideInRight">
+                                    <div className="greenCard">
+                                        <div className="greenCard_title bold">
+                                            Совершай<br />
                                     платежи<br />
                                     и покупки
                                 </div>
-                                    <div className="greenCard_text">
-                                        прямо из кошелька<br />
+                                        <div className="greenCard_text">
+                                            прямо из кошелька<br />
                                     (мобильный телефон,<br />
                                     Gift-карты)
                                 </div>
-                                </div>
-                            </ScrollAnimation>
+                                    </div>
+                                </ScrollAnimation>
+                            </Parallax>
                         </div>
                     </div>
                 </div>

@@ -18,7 +18,7 @@ export default class WelcomeComponent extends React.Component {
                             кошелёк для<br />
                             людей</h1>
                             </ScrollAnimation>
-                            <Parallax y={[-15, 15]} tagOuter="figure">
+                            <Parallax y={[-15, 15]}>
                                 <h4><span className="extraBold eb">Globix Cash</span> — это простой и
                             надежный<br /> мультивалютный кошелёк <span className="bold">в Telegram</span></h4>
                                 <a href="" className="button" target="_blank">Активировать</a>
