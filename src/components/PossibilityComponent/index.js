@@ -4,6 +4,7 @@ import cursor from "../../images/cursor.png"
 import manWithCard from "../../images/man_with_card.png"
 import ScrollAnimation from 'react-animate-on-scroll';
 import { Parallax } from 'react-scroll-parallax';
+import { ScrollRotate } from 'react-scroll-rotate';
 import coin from "../../images/coin.png"
 
 export default class PossibilityComponent extends React.Component {
@@ -13,12 +14,17 @@ export default class PossibilityComponent extends React.Component {
                 <div className="container-fluid">
                     <div className="row justify-content-center">
                         <div className="col-md-6">
-                            <Parallax y={[-10, 10]} tagOuter="figure2">
-                                <h2 className="extraBold">Возможности</h2>
-                                <h5>на прямую выводить и вводить на банковские карты<br />
-                            мгновенные переводы внутри телеграмм без комиссии</h5>
+                            <Parallax y={[-10, 10]} tagOuter="figure">
                                 <ScrollAnimation
-                                    animateIn="bounceInUp">
+                                    animateOnce={true}
+                                    animateIn="slideInLeft">
+                                    <h2 className="extraBold">Возможности</h2>
+                                    <h5>на прямую выводить и вводить на банковские карты<br />
+                            мгновенные переводы внутри телеграмм без комиссии</h5>
+                                </ScrollAnimation>
+                                <ScrollAnimation
+                                    animateOnce={true}
+                                    animateIn="slideInUp">
                                     <div className="blueCard">
                                         <div className="blueCard_title">
                                             Быстрая покупка<br />
@@ -37,8 +43,8 @@ export default class PossibilityComponent extends React.Component {
                         <div className="col-md-6">
                             <img src={manWithCard} draggable={false} className="manwithcard" alt="" />
                             <ScrollAnimation
-                                offset={-400}
-                                animateIn="bounceInLeft">
+                                animateOnce={true}
+                                animateIn="slideInLeft">
                                 <div className="grayCard">
                                     <div className="grayCard_title bold">
                                         Зарабатывай вместе<br />
@@ -52,7 +58,9 @@ export default class PossibilityComponent extends React.Component {
                                 </div>
                             </ScrollAnimation>
                             <ScrollAnimation
-                                animateIn="bounceInRight">
+                                delay={200}
+                                animateOnce={true}
+                                animateIn="slideInRight">
                                 <div className="greenCard">
                                     <div className="greenCard_title bold">
                                         Совершай<br />

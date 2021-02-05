@@ -1,6 +1,8 @@
 import React from 'react'
 import './index.css'
 import sofa from "../../images/sofa.png"
+import ScrollAnimation from 'react-animate-on-scroll';
+import { Parallax } from 'react-scroll-parallax';
 
 export default class SofaComponent extends React.Component {
     render() {
@@ -10,9 +12,13 @@ export default class SofaComponent extends React.Component {
                     <div className="row">
                         <div className="sofaCircle_title extraBold hide">
                             Денежные<br />
-                                переводы
-                            </div>
-                        <img src={sofa} className="sofaImg" draggable={false} alt="" />
+                            переводы
+                        </div>
+                        <ScrollAnimation
+                            offset={-1000}
+                            animateIn="slideInLeft">
+                            <img src={sofa} className="sofaImg" draggable={false} alt="" />
+                        </ScrollAnimation>
                         <div className="sofaCircle">
                             <div className="sofaCircle_title extraBold">
                                 Денежные<br />
