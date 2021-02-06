@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/globix/static/css/main.b800964f.chunk.css",
-    "main.js": "/globix/static/js/main.6d5cc8a7.chunk.js",
-    "main.js.map": "/globix/static/js/main.6d5cc8a7.chunk.js.map",
+    "main.js": "/globix/static/js/main.d749013f.chunk.js",
+    "main.js.map": "/globix/static/js/main.d749013f.chunk.js.map",
     "runtime-main.js": "/globix/static/js/runtime-main.04439c62.js",
     "runtime-main.js.map": "/globix/static/js/runtime-main.04439c62.js.map",
     "static/css/2.3d3426d2.chunk.css": "/globix/static/css/2.3d3426d2.chunk.css",
     "static/js/2.3fc1ca34.chunk.js": "/globix/static/js/2.3fc1ca34.chunk.js",
     "static/js/2.3fc1ca34.chunk.js.map": "/globix/static/js/2.3fc1ca34.chunk.js.map",
     "index.html": "/globix/index.html",
-    "precache-manifest.bbfd52047382298fa6840be9b5ed96aa.js": "/globix/precache-manifest.bbfd52047382298fa6840be9b5ed96aa.js",
+    "precache-manifest.240ca24238dfd3a1a413c326f3e5a49b.js": "/globix/precache-manifest.240ca24238dfd3a1a413c326f3e5a49b.js",
     "service-worker.js": "/globix/service-worker.js",
     "static/css/2.3d3426d2.chunk.css.map": "/globix/static/css/2.3d3426d2.chunk.css.map",
     "static/css/main.b800964f.chunk.css.map": "/globix/static/css/main.b800964f.chunk.css.map",
@@ -37,6 +37,6 @@
     "static/css/2.3d3426d2.chunk.css",
     "static/js/2.3fc1ca34.chunk.js",
     "static/css/main.b800964f.chunk.css",
-    "static/js/main.6d5cc8a7.chunk.js"
+    "static/js/main.d749013f.chunk.js"
   ]
 }
