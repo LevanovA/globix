@@ -9,9 +9,61 @@ import popupImg3 from "../../images/popupImg3.png";
 export default class ModalComponent extends React.Component {
     constructor(props) {
         super(props);
+        this.state = {
+            name: '',
+            email: '',
+            message: '',
+            emailStatus: ''
+        }
+    }
+    handleChange = input => e => {
+        this.setState({
+            [input]: e.target.value
+        });
+    }
+    
+    submitForm = (e) => {
+
+        e.preventDefault();
+
+        const {
+            name,
+            email, 
+            message
+        } = this.state;
+        
+        let data = {name: name, email: email, message: message};
+
+        console.log(data);
+        fetch('../../send.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data),
+            
+        })
+        .then((response) => {
+            if (response.status === 200 && (message !== '' || name !== '')) {
+                console.log('Отправии');
+            }
+            else {
+                console.log('ошибка валидации');
+            }
+            if (response.status !== 200) {
+                throw new Error('status network not 200');
+            }
+        });
     }
 
     render() {
+
+        const {
+            name,
+            email, 
+            message
+        } = this.state;
+
         return (
             <div className={`modalComponent ${this.props.hideClass ? 'hide' : ''}`}>
                 <div className="modalBackground" />
@@ -34,21 +86,21 @@ export default class ModalComponent extends React.Component {
                         </div>
                             </div>
                             <div className="row justify-content-center">
-                                <form>
+                                <form onSubmit={this.submitForm}>
                                     <div className="row justify-content-between">
                                         <div className="col-md-6">
                                             <h5>Ваше имя</h5>
-                                            <input type="text" />
+                                            <input required type="text" value={name} onChange={this.handleChange('name')} />
                                         </div>
                                         <div className="col-md-6">
                                             <h5>Ваш e-mail</h5>
-                                            <input type="text" />
+                                            <input required type="email" value={email} onChange={this.handleChange('email')}/>
                                         </div>
                                     </div>
                                     <div className="row justify-content-between">
                                         <div className="col-md-12">
                                             <h5>Ваш вопрос</h5>
-                                            <textarea />
+                                            <textarea type="text" value={message} onChange={this.handleChange('message')}></textarea>
                                         </div>
                                     </div>
                                     <div className="row justify-content-center">
