@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/globix/static/css/main.fed9d507.chunk.css",
-    "main.js": "/globix/static/js/main.41ed5c86.chunk.js",
-    "main.js.map": "/globix/static/js/main.41ed5c86.chunk.js.map",
+    "main.css": "/globix/static/css/main.f91dd146.chunk.css",
+    "main.js": "/globix/static/js/main.0b780a46.chunk.js",
+    "main.js.map": "/globix/static/js/main.0b780a46.chunk.js.map",
     "runtime-main.js": "/globix/static/js/runtime-main.04439c62.js",
     "runtime-main.js.map": "/globix/static/js/runtime-main.04439c62.js.map",
     "static/css/2.3d3426d2.chunk.css": "/globix/static/css/2.3d3426d2.chunk.css",
     "static/js/2.087cedbd.chunk.js": "/globix/static/js/2.087cedbd.chunk.js",
     "static/js/2.087cedbd.chunk.js.map": "/globix/static/js/2.087cedbd.chunk.js.map",
     "index.html": "/globix/index.html",
-    "precache-manifest.04ea957491d86e96080c3997132f8ef5.js": "/globix/precache-manifest.04ea957491d86e96080c3997132f8ef5.js",
+    "precache-manifest.46d2ccb810a2e778701187799db8bb12.js": "/globix/precache-manifest.46d2ccb810a2e778701187799db8bb12.js",
     "service-worker.js": "/globix/service-worker.js",
     "static/css/2.3d3426d2.chunk.css.map": "/globix/static/css/2.3d3426d2.chunk.css.map",
-    "static/css/main.fed9d507.chunk.css.map": "/globix/static/css/main.fed9d507.chunk.css.map",
+    "static/css/main.f91dd146.chunk.css.map": "/globix/static/css/main.f91dd146.chunk.css.map",
     "static/js/2.087cedbd.chunk.js.LICENSE.txt": "/globix/static/js/2.087cedbd.chunk.js.LICENSE.txt",
     "static/media/main.css": "/globix/static/media/circe_thin.d41d8cd9.woff",
     "static/media/cursor.png": "/globix/static/media/cursor.9112f030.png",
@@ -39,7 +39,7 @@
     "static/js/runtime-main.04439c62.js",
     "static/css/2.3d3426d2.chunk.css",
     "static/js/2.087cedbd.chunk.js",
-    "static/css/main.fed9d507.chunk.css",
-    "static/js/main.41ed5c86.chunk.js"
+    "static/css/main.f91dd146.chunk.css",
+    "static/js/main.0b780a46.chunk.js"
   ]
 }
