@@ -269,6 +269,10 @@
     .modalWrapper {
         height: 550px;
     }
+    .infomodal_descr {
+        margin-top: 25px;
+        font-size: 15px;
+    }
 }
 @media only screen and (max-width: 500px) {
     .infomodal_descr {
@@ -280,14 +284,25 @@
         height: 600px;
     }
 }
+@media only screen and (max-width: 428px) {
+    .infomodal_imgBox img {
+        margin-bottom: 15px;
+        height: 90px;
+    }
+}
 @media only screen and (max-width: 381px) {
     .infomodal_imgBox_mobile img {
         height: 85px;
     }
     .infomodal_descr {
         margin-top: 20px;
+        line-height: 22px;
+        font-size: 15px;
     }
+}
+@media only screen and (max-width: 348px) {
     .infomodal_descr {
-        font-size: 13px;
+        font-size: 12px;
+        line-height: 24px;
     }
 }
