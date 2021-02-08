@@ -75,6 +75,11 @@ export default class ModalComponent extends React.Component {
                                     <div className="infomodal_descr">
                                     Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст 
                                     </div>
+                                    <div className="infomodal_imgBox infomodal_imgBox_mobile">
+                                        <img src={popupImg1} draggable={false} alt="" />
+                                        <img src={popupImg2} draggable={false} alt="" />
+                                        <img src={popupImg3} draggable={false} alt="" />
+                                    </div>
                                     <div className="infomodal_btn">Попробовать</div>
                                 </div>
                             </div>

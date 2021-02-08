@@ -117,8 +117,10 @@
 }
 .infomodal_imgBox {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;   
+}
+.infomodal_imgBox_mobile {
+    display: none;
 }
 .infomodal_imgBox img {
     margin-bottom: 21px;
@@ -176,4 +178,51 @@
     color: #000000;
     text-align: center;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 680px) {
+    .infomodal_imgBox {
+        display: none;
+    }
+    .infomodal_textBox {
+        margin-left: 0;
+    }
+    .infomodal_imgBox_mobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+    .infomodal_imgBox_mobile img {
+        height: 113px;
+    }
+    .infomodal_btn {
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 570px) {
+    .modalWrapper {
+        height: 550px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .infomodal_descr {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 445px) {
+    .modalWrapper {
+        height: 600px;
+    }
+}
+@media only screen and (max-width: 381px) {
+    .infomodal_imgBox_mobile img {
+        height: 85px;
+    }
+    .infomodal_descr {
+        margin-top: 20px;
+    }
+    .infomodal_descr {
+        font-size: 13px;
+    }
 }
