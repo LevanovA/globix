@@ -125,6 +125,7 @@ a.button {
     border: 3px solid #005FF9;
     transform: scale(1);
     transition: all 0.1s;
+    cursor: pointer;
 }
 
 a.button:hover {
