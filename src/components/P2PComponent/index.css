@@ -240,6 +240,9 @@
         font-size: 16px;
     }
 }
+.p2p img.img1_mobile {
+    display: none;
+}
 
 @media only screen and (max-width: 882px) {
     .p2p img.img1 {
@@ -249,6 +252,86 @@
     }
     .p2p h5.text1 {
         width: 46%;
+    }
+}
+
+@media only screen and (max-width: 868px) {
+    .p2p .row2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 4rem;
+        position: static;
+    }
+    .p2p img.img1 {
+        display: none;
+    }
+    .p2p img.img2 {
+        display: none;
+    }
+    .p2p img.img1_mobile {
+        display: block;
+        margin: 0 auto;
+        position: static;
+    }
+    .p2p img.img2_mobile {
+        display: block;
+        margin: 0 auto;
+        position: static;
+    }
+    .p2p h3 {
+        text-align: center;
+    }
+    .p2p h3.text2 {
+        margin-top: 1rem;
+    }
+    .p2p h4.text1 {
+        text-align: center;
+    }
+    .p2p h5.text1 {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .p2p .cardsWrapper.wrapper1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3rem;
+    }
+    .p2p .cardsWrapper.wrapper2 {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .p2p .greenCard.card1 {
+        position: static;
+    }
+    .p2p .greenCard.card2 {
+        position: static;
+        max-width: 320px;
+    }
+    .p2p .card2 {
+        margin-bottom: 10px;
+    }
+    .p2p .greenCard_title {
+        font-size: 34px;
+        text-align: center;
+    }
+    .p2p .blackCard.card1 {
+        position: static;
+    }
+    .p2p .grayCard {
+        position: static;
+    }
+    .p2p .card_wrapp {
+        margin-bottom: 10px;
+    }
+    .p2p .card_wrapp:last-child {
+        margin-bottom: 0px;
+    }
+    .p2p h5.text1 {
+        width: 65%;
     }
 }
 
@@ -300,13 +383,42 @@
     }
 }
 
+@media only screen and (max-width: 670px) {
+    .p2p img.img1 {
+        width: 24rem;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .p2p img.img1 {
+        width: 19rem;
+    }
+}
+
+@media only screen and (max-width: 468px) {
+    .p2p h2 {
+        font-size: 42px;
+    }
+    .p2p h3 {
+        font-size: 27px;
+        line-height: 33px;
+    }
+    .p2p h5.text1 {
+        width: 80%;
+    }
+}
+
 @media only screen and (max-width: 450px) {
+    .p2p img.img2 {
+        width: 20rem;
+    }
     .p2p {
         border-radius: 130px;
     }
     .p2p h2 {
-        font-size: 50px;
+        font-size: 42px;
         line-height: 55px;
+        margin-bottom: 2rem;
     }
     .p2p img.img1 {
         right: -7rem;
@@ -330,7 +442,49 @@
     }
     .p2p .greenCard, .p2p .blackCard.card1, .p2p .grayCard {
         width: 100%;
-        min-width: auto;
+        min-width: 320px;
         left: 0;
+    }
+}
+@media only screen and (max-width: 428px) {
+    .p2p img.img1 {
+        width: 16rem;
+    }
+    .p2p h5.text1 {
+        width: 97%;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .p2p h2 {
+        font-size: 36px;
+    }
+    .p2p h3 {
+        font-size: 23px;
+    }
+    .p2p img.img1 {
+        width: 13rem;
+    }
+}
+@media only screen and (max-width: 340px) {
+    .p2p h2 {
+        font-size: 32px;
+    }
+    .p2p h3 {
+        font-size: 25px;
+    }
+    .p2p h4 {
+        font-size: 22px;
+    }
+    .p2p img.img1 {
+        width: 13rem;
+    }
+    .p2p img.img2 {
+        width: 18rem;
+    }
+    .p2p .greenCard, .p2p .blackCard.card1, .p2p .grayCard {
+        min-width: 290px;
+    }
+    .p2p .blackCard.card2 {
+        min-width: 290px;
     }
 }

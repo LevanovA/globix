@@ -72,7 +72,7 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .security img {
         position: static;
         margin: 0 auto;
