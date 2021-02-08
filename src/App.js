@@ -16,6 +16,8 @@ import FooterComponent from './components/FooterComponent'
 import './css/main.css'
 import './css/mobile.css'
 
+import { Parallax } from 'react-scroll-parallax';
+
 class App extends React.Component {
   render() {
     return (

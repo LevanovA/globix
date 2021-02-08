@@ -3,6 +3,7 @@ import './index.css'
 import logo from '../../images/logo.svg'
 import telegram from '../../images/telegram.svg'
 import whatsup from '../../images/whatsup.svg'
+import { Parallax } from 'react-scroll-parallax';
 
 export default class HeaderComponent extends React.Component {
     render() {

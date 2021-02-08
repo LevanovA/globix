@@ -10,13 +10,15 @@ export default class WelcomeComponent extends React.Component {
             <div className="welcome">
                 <div className="container-fluid">
                     <div className="row justify-content-center">
-                        <div className="col-md-7">
+                        <div className="col-md-7 column">
                             <ScrollAnimation
+                                duration={2}
                                 animateOnce={true}
-                                animateIn="slideInLeft">
+                                animateIn="fadeInLeft">
                                 <h1 className="extraBold">Привет, я <span className="littleCard extraBold">Globix</span><br />
-                            кошелёк для<br />
-                            людей</h1>
+                                    кошелёк для<br />
+                                    людей
+                                </h1>
                             </ScrollAnimation>
                             <Parallax y={[-15, 15]}>
                                 <h4><span className="extraBold eb">Globix Cash</span> — это простой и
@@ -24,11 +26,12 @@ export default class WelcomeComponent extends React.Component {
                                 <a href="" className="button" target="_blank">Активировать</a>
                             </Parallax>
                         </div>
-                        <div className="col-md-5">
+                        <div className="col-md-5 column">
                             <ScrollAnimation
-                                offset={100}
+                                offset={90}
+                                duration={2}
                                 animateOnce={true}
-                                animateIn="slideInRight">
+                                animateIn="fadeInRight">
                                 <img src={iphone} draggable={false} alt="" />
                             </ScrollAnimation>
                         </div>

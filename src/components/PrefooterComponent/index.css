@@ -15,3 +15,39 @@
     position: relative;
     left: 3rem;
 }
+
+@media only screen and (max-width: 768px) {
+    .prefooter {
+        margin-top: -1rem;
+    }
+    .prefooter h2 {
+        text-align: center;
+        margin-top: 0;
+    }
+    .prefooter h5 {
+        text-align: center;
+        text-align: center;
+        margin-top: 22rem;
+        margin-bottom: 1.5rem;
+    }
+    .prefooter .column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .prefooter img {
+        left: 2rem;
+        top: -29rem;
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .prefooter h2 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .prefooter img {
+        top: -30.5rem;
+    }
+}

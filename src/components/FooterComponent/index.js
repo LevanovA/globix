@@ -1,6 +1,7 @@
 import React from 'react'
 import './index.css'
 import logo from '../../images/logo.svg'
+import { Parallax } from 'react-scroll-parallax';
 
 export default class FooterComponent extends React.Component {
     render() {

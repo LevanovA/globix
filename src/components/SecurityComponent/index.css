@@ -72,7 +72,7 @@
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     .security img {
         position: static;
         margin: 0 auto;
@@ -112,6 +112,9 @@
     }
     .security img {
         margin-bottom: 2rem;
+    }
+    .security .row {
+        justify-content: center;
     }
 }
 

@@ -58,25 +58,13 @@
     color: #FFFFFF;
 }
 
-.startbot .container-fluid--startbot {
-    width: 75%;
-}
-
 .question .sliderCard_title {
     text-align: center;
-}
-@media only screen and (max-width: 1522px) {
-    .startbot .container-fluid--startbot {
-        width: 90%;
-    }
 }
 
 @media only screen and (max-width: 1170px) {
     .startbot .sliderCard {
         max-width: 160px;
-    }
-    .startbot .container-fluid--startbot {
-        width: 95%;
     }
 }
 
@@ -84,7 +72,8 @@
     .startbot .sliderCard {
         max-width: 145px;
     }
-} 
+}
+
 @media only screen and (max-width: 1000px) {
     .startbot .cardsContainer {
         margin: 0 auto;
@@ -93,4 +82,45 @@
     .startbot .sliderCard {
         margin-bottom: 2rem;
     }
-} 
+}
+
+@media only screen and (max-width: 768px) {
+    .startbot h5 {
+        width: 67%;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .startbot .sliderCard {
+        max-width: 43vw;
+    }
+    .startbot .fadeInUp:last-child {
+        width: 49%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .startbot h2 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .startbot h5 {
+        width: 80%;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .startbot .sliderCard {
+        max-width: none;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .startbot .fadeInUp {
+        width: 100%;
+    }
+    .startbot .fadeInUp:last-child {
+        width: 100%;
+    }
+}

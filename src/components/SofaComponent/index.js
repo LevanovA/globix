@@ -15,9 +15,9 @@ export default class SofaComponent extends React.Component {
                             переводы
                         </div>
                         <ScrollAnimation
-                            offset={-1000}
+                            offset={500}
                             animateOnce={true}
-                            animateIn="slideInLeft">
+                            animateIn="fadeInLeft">
                             <img src={sofa} className="sofaImg" draggable={false} alt="" />
                         </ScrollAnimation>
                         <div className="sofaCircle">

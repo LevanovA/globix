@@ -1,6 +1,8 @@
 import React from 'react'
 import './index.css'
 import ModalComponent from '../ModalComponent'
+import ScrollAnimation from 'react-animate-on-scroll';
+import { Parallax } from 'react-scroll-parallax';
 
 export default class StartBotComponent extends React.Component {
     constructor(props) {
@@ -35,31 +37,36 @@ export default class StartBotComponent extends React.Component {
                 title: `Как<br/>переводить`,
                 text: `между пользователями телеграмм 
                 без комиссии`,
-                background: `#C4C4C4`
+                background: `#C4C4C4`,
+                delay: `0`
             },
             {
                 title: `Как<br/>привязать<br/>карту`,
                 text: `bitcoin, etherium, usdt пару кликов, 
                 с минимальными комиссиями`,
-                background: `#C4C4C4`
+                background: `#C4C4C4`,
+                delay: `100`
             },
             {
                 title: `Какие<br/>бонусы?`,
                 text: `всегда под рукой 
                 и с любого устройства прямо в мессенджере`,
-                background: `#D8D8D8`
+                background: `#D8D8D8`,
+                delay: `200`
             },
             {
                 title: `Какой-то<br/>вопрос`,
                 text: `между пользователями телеграмм 
                 без комиссии`,
-                background: `#A3FF5E`
+                background: `#A3FF5E`,
+                delay: `300`
             },
             {
                 title: `Как<br/>привязать<br/>карту`,
                 text: `bitcoin, etherium, usdt пару кликов, 
                 с минимальными комиссиями`,
-                background: `#C4C4C4`
+                background: `#C4C4C4`,
+                delay: `400`
             },
         ];
 
@@ -77,27 +84,39 @@ export default class StartBotComponent extends React.Component {
                             <div className="col-md-12 cardsContainer">
                                 {cards.map((card, index) => {
                                     return (
-                                        <div
+                                        <ScrollAnimation
                                             key={index}
-                                            onClick={() => this.cardHandler()}
-                                            style={{ background: card.background }}
-                                            className="sliderCard">
+                                            offset={200}
+                                            delay={card.delay}
+                                            animateOnce={true}
+                                            animateIn="fadeInUp">
                                             <div
-                                                className="sliderCard_title bold"
-                                                dangerouslySetInnerHTML={{ __html: card.title }}>
+                                                onClick={() => this.cardHandler()}
+                                                style={{ background: card.background }}
+                                                className="sliderCard">
+                                                <div
+                                                    className="sliderCard_title bold"
+                                                    dangerouslySetInnerHTML={{ __html: card.title }}>
+                                                </div>
+                                                <div
+                                                    className="sliderCard_text"
+                                                    dangerouslySetInnerHTML={{ __html: card.text }}>
+                                                </div>
                                             </div>
-                                            <div
-                                                className="sliderCard_text"
-                                                dangerouslySetInnerHTML={{ __html: card.text }}>
-                                            </div>
-                                        </div>
+                                        </ScrollAnimation>
                                     )
                                 })}
-                                <div className="sliderCard question" onClick={() => this.questionHandler()}>
-                                    <div className="sliderCard_title bold">
-                                        Задать вопрос
-                                </div>
-                                </div>
+                                <ScrollAnimation
+                                    offset={200}
+                                    delay={500}
+                                    animateOnce={true}
+                                    animateIn="fadeInUp">
+                                    <div className="sliderCard question" onClick={() => this.questionHandler()}>
+                                        <div className="sliderCard_title bold">
+                                            Задать вопрос
+                                        </div>
+                                    </div>
+                                </ScrollAnimation>
                             </div>
                         </div>
                     </div>

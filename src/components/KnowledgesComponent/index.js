@@ -1,7 +1,8 @@
 import React from 'react'
 import './index.css'
 import knowledgesImg from "../../images/knowledges.png"
-
+import ScrollAnimation from 'react-animate-on-scroll';
+import { Parallax } from 'react-scroll-parallax';
 
 export default class KnowledgesComponent extends React.Component {
     render() {
@@ -10,10 +11,15 @@ export default class KnowledgesComponent extends React.Component {
                 <div className="container-fluid section">
                     <div className="row">
                         <div className="col-md-6">
-                        <h2 className="extraBold extraBold_modile">
+                            <h2 className="extraBold extraBold_modile">
                                 Делимся<br />
                                 знаниями</h2>
-                            <img src={knowledgesImg} draggable={false} alt="" />
+                            <ScrollAnimation
+                                offset={600}
+                                animateOnce={true}
+                                animateIn="fadeInLeft">
+                                <img src={knowledgesImg} draggable={false} alt="" />
+                            </ScrollAnimation>
                         </div>
                         <div className="col-md-6 mobile_direction">
                             <h2 className="extraBold">

@@ -1,6 +1,7 @@
 import React from 'react'
 import './index.css'
 import exitImg from "../../images/exit.svg"
+import { Parallax } from 'react-scroll-parallax';
 
 export default class ModalComponent extends React.Component {
     constructor(props) {

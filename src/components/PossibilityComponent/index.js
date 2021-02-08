@@ -17,14 +17,14 @@ export default class PossibilityComponent extends React.Component {
                             <Parallax y={[-10, 10]}>
                                 <ScrollAnimation
                                     animateOnce={true}
-                                    animateIn="slideInLeft">
+                                    animateIn="fadeInLeft">
                                     <h2 className="extraBold">Возможности</h2>
                                     <h5>на прямую выводить и вводить на банковские карты<br />
                             мгновенные переводы внутри телеграмм без комиссии</h5>
                                 </ScrollAnimation>
                                 <ScrollAnimation
                                     animateOnce={true}
-                                    animateIn="slideInUp">
+                                    animateIn="fadeInUp">
                                     <div className="blueCard">
                                         <div className="blueCard_title">
                                             Быстрая покупка<br />
@@ -45,7 +45,7 @@ export default class PossibilityComponent extends React.Component {
                             <Parallax y={[-10, 10]}>
                                 <ScrollAnimation
                                     animateOnce={true}
-                                    animateIn="slideInLeft">
+                                    animateIn="fadeInLeft">
                                     <div className="grayCard">
                                         <div className="grayCard_title bold">
                                             Зарабатывай вместе<br />
@@ -61,7 +61,7 @@ export default class PossibilityComponent extends React.Component {
                                 <ScrollAnimation
                                     delay={200}
                                     animateOnce={true}
-                                    animateIn="slideInRight">
+                                    animateIn="fadeInRight">
                                     <div className="greenCard">
                                         <div className="greenCard_title bold">
                                             Совершай<br />

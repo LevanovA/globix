@@ -2,6 +2,8 @@ import React from 'react'
 import './index.css'
 import p2p_1Img from "../../images/p2p_1.png"
 import p2p_2Img from "../../images/p2p_2.png"
+import ScrollAnimation from 'react-animate-on-scroll';
+import { Parallax } from 'react-scroll-parallax';
 
 export default class P2PComponent extends React.Component {
     render() {
@@ -25,31 +27,46 @@ export default class P2PComponent extends React.Component {
                             </h5>
                             <img src={p2p_1Img} className="img1" draggable={false} alt="" />
                             <div className="cardsWrapper wrapper1">
-                                <div className="greenCard card1">
-                                    <div className="greenCard_title bold">
-                                        Без KYC
-                                </div>
-                                </div>
-                                <div className="blackCard card1">
-                                    <div className="blackCard_title bold">
-                                        Без кредитной<br />истории
-                                </div>
-                                    <div className="blackCard_text">
-                                        Не нужно предоставлять сведения<br />
-                                    о кредитной истории и доказывать<br />
-                                    свою платежеспособность.
-                                </div>
-                                </div>
-                                <div className="grayCard">
-                                    <div className="grayCard_title bold">
-                                        Не переплачивайте
-                                </div>
-                                    <div className="grayCard_text">
-                                        Возьмите кредит в USDT на срок
-                                    от 7 дней до 1 года.<br />
-                                    Погасите кредит досрочно и платите только за срок пользования деньгами.
-                                </div>
-                                </div>
+                                <ScrollAnimation
+                                    delay={150}
+                                    animateOnce={true}
+                                    animateIn="fadeInUp">
+                                    <div className="greenCard card1">
+                                        <div className="greenCard_title bold">
+                                            Без KYC
+                                        </div>
+                                    </div>
+                                </ScrollAnimation>
+                                <ScrollAnimation
+                                    delay={0}
+                                    animateOnce={true}
+                                    animateIn="fadeInUp">
+                                    <div className="blackCard card1">
+                                        <div className="blackCard_title bold">
+                                            Без кредитной<br />истории
+                                        </div>
+                                        <div className="blackCard_text">
+                                            Не нужно предоставлять сведения<br />
+                                            о кредитной истории и доказывать<br />
+                                            свою платежеспособность.
+                                        </div>
+                                    </div>
+                                </ScrollAnimation>
+                                <ScrollAnimation
+                                    delay={300}
+                                    animateOnce={true}
+                                    animateIn="fadeInUp">
+                                    <div className="grayCard">
+                                        <div className="grayCard_title bold">
+                                            Не переплачивайте
+                                        </div>
+                                        <div className="grayCard_text">
+                                            Возьмите кредит в USDT на срок
+                                            от 7 дней до 1 года.<br />
+                                            Погасите кредит досрочно и платите только за срок пользования деньгами.
+                                        </div>
+                                    </div>
+                                </ScrollAnimation>
                             </div>
                         </div>
                     </div>
@@ -68,21 +85,30 @@ export default class P2PComponent extends React.Component {
                                 Кредит можно выдать в USDT или GUSD
                             </h5>
                             <div className="cardsWrapper wrapper2">
-                                <div className="blackCard card2">
-                                    <div className="blackCard_title bold">
-                                        Без KYC
-                                </div>
-                                    <div className="blackCard_text">
-                                        Никаких обязательных селфи
-                                        и паспортов
-                                </div>
-                                </div>
-                                <div className="greenCard card2">
-                                    <div className="greenCard_title bold">
-                                        Заработать
-                                        без рисков
-                                </div>
-                                </div>
+                                <ScrollAnimation
+                                    delay={200}
+                                    animateOnce={true}
+                                    animateIn="fadeInLeft">
+                                    <div className="blackCard card2">
+                                        <div className="blackCard_title bold">
+                                            Без KYC
+                                        </div>
+                                        <div className="blackCard_text">
+                                            Никаких обязательных селфи
+                                            и паспортов
+                                        </div>
+                                    </div>
+                                </ScrollAnimation>
+                                <ScrollAnimation
+                                    animateOnce={true}
+                                    animateIn="fadeInRight">
+                                    <div className="greenCard card2">
+                                        <div className="greenCard_title bold">
+                                            Заработать
+                                            без рисков
+                                        </div>
+                                    </div>
+                                </ScrollAnimation>
                             </div>
                         </div>
                     </div>

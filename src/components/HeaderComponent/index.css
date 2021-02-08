@@ -4,7 +4,12 @@
 
 .header a {
     font-size: 19px;
-    line-height: 40px;
+    line-height: 25px;
+    border-bottom: 2px solid transparent;
+}
+
+.header a:hover {
+    border-bottom: 2px solid #19191A;
 }
 
 .header-item {
@@ -20,11 +25,27 @@
     top: 3.3rem;
 }
 
+.header .dopinfo a {
+    position: relative;
+    top: 0.4rem;
+}
+
+.header .dopinfo a:last-child {
+    right: -1rem;
+}
+
+.header .dopinfo a:hover {
+    border-bottom: none;
+    transform: translateY(5px);
+    transition: all 1s;
+}
+
 .lang {
     position: absolute;
     width: 71px;
     height: 73px;
     top: -80px;
+    left: 0.4rem;
     background: #F7B732;
     border-radius: 28px;
     display: flex;
@@ -34,4 +55,23 @@
     font-size: 34px;
     line-height: 38px;
     color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1700px) {
+    .lang, .header .dopinfo {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header .header-item {
+        display: none;
+    }
+    .header .header-item:first-child {
+        display: flex;
+    }
+    .header {
+        padding-top: 1.5rem;
+        margin-bottom: 2rem;
+    }
 }

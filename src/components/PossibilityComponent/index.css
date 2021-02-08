@@ -133,6 +133,9 @@
         bottom: -16rem;
         left: 9%;
     }
+    .possibility .col-md-6:first-child {
+        z-index: 2;
+    }
 }
 
 @media only screen and (max-width: 630px) {
@@ -168,5 +171,19 @@
     }
     .possibility .greenCard .greenCard_text {
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .possibility h2 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .possibility h2 {
+        font-size: 45px;
+        line-height: 50px;
     }
 }

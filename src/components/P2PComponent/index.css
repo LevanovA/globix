@@ -210,7 +210,7 @@
         top: -7rem;
         left: -4rem;
     }
-}   
+}
 
 @media only screen and (max-width: 980px) {
     .p2p .greenCard.card1 {
@@ -225,6 +225,7 @@
         left: -12rem;
     }
 }
+
 @media only screen and (max-width: 958px) {
     .p2p img.img1 {
         right: -4rem;
@@ -238,7 +239,8 @@
     .p2p h5 {
         font-size: 16px;
     }
-} 
+}
+
 @media only screen and (max-width: 882px) {
     .p2p img.img1 {
         right: -4rem;
@@ -249,6 +251,7 @@
         width: 46%;
     }
 }
+
 @media only screen and (max-width: 860px) {
     .p2p .grayCard {
         padding: 38px 46px;
@@ -267,7 +270,8 @@
     .p2p .grayCard_text {
         font-size: 15px;
     }
-}  
+}
+
 @media only screen and (max-width: 835px) {
     .p2p h3 {
         font-size: 35px;
@@ -278,4 +282,55 @@
     .p2p img.img2 {
         width: 24rem;
     }
-}  
+}
+
+@media only screen and (max-width: 768px) {
+    .p2p {
+        border-radius: 270px;
+    }
+    .p2p h2 {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    .p2p h3 {
+        z-index: 2;
+    }
+    .p2p .container-fluid {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .p2p {
+        border-radius: 130px;
+    }
+    .p2p h2 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .p2p img.img1 {
+        right: -7rem;
+        top: 9rem;
+        width: 19rem;
+    }
+    .p2p .cardsWrapper {
+        flex-direction: column;
+    }
+    .p2p .cardsWrapper.wrapper1 {
+        margin-top: 3rem;
+    }
+    .p2p .blackCard.card1 {
+        right: auto;
+        top: 0;
+        margin-top: 1rem;
+    }
+    .p2p .grayCard {
+        top: 0;
+        margin-top: 1rem;
+    }
+    .p2p .greenCard, .p2p .blackCard.card1, .p2p .grayCard {
+        width: 100%;
+        min-width: auto;
+        left: 0;
+    }
+}
