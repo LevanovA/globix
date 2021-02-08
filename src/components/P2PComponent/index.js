@@ -93,30 +93,34 @@ export default class P2PComponent extends React.Component {
                                 Кредит можно выдать в USDT или GUSD
                             </h5>
                             <div className="cardsWrapper wrapper2">
-                                <ScrollAnimation
-                                    delay={200}
-                                    animateOnce={true}
-                                    animateIn="fadeInLeft">
-                                    <div className="blackCard card2">
-                                        <div className="blackCard_title bold">
-                                            Без KYC
+                                <div className="card_wrapp2">
+                                    <ScrollAnimation
+                                        delay={200}
+                                        animateOnce={true}
+                                        animateIn="fadeInLeft">
+                                        <div className="blackCard card2">
+                                            <div className="blackCard_title bold">
+                                                Без KYC
+                                            </div>
+                                            <div className="blackCard_text">
+                                                Никаких обязательных селфи
+                                                и паспортов
+                                            </div>
                                         </div>
-                                        <div className="blackCard_text">
-                                            Никаких обязательных селфи
-                                            и паспортов
+                                    </ScrollAnimation>
+                                </div>
+                                <div className="card_wrapp2">
+                                    <ScrollAnimation
+                                        animateOnce={true}
+                                        animateIn="fadeInRight">
+                                        <div className="greenCard card2">
+                                            <div className="greenCard_title bold">
+                                                Заработать
+                                                без рисков
+                                            </div>
                                         </div>
-                                    </div>
-                                </ScrollAnimation>
-                                <ScrollAnimation
-                                    animateOnce={true}
-                                    animateIn="fadeInRight">
-                                    <div className="greenCard card2">
-                                        <div className="greenCard_title bold">
-                                            Заработать
-                                            без рисков
-                                        </div>
-                                    </div>
-                                </ScrollAnimation>
+                                    </ScrollAnimation>
+                                </div>
                             </div>
                         </div>
                     </div>

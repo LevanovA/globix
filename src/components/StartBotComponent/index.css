@@ -62,9 +62,14 @@
     text-align: center;
 }
 
-@media only screen and (max-width: 1170px) {
+@media only screen and (max-width: 1288px) {
     .startbot .sliderCard {
         max-width: 160px;
+    }
+}
+@media only screen and (max-width: 1198px) {
+    .startbot .sliderCard {
+        max-width: 150px;
     }
 }
 
@@ -80,7 +85,7 @@
         max-width: 500px;
     }
     .startbot .sliderCard {
-        margin-bottom: 2rem;
+        margin-bottom: 0.6rem;
     }
 }
 
