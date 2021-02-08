@@ -10,7 +10,7 @@ export default class HeaderComponent extends React.Component {
         return (
             <div className="header">
                 <div className="container-fluid">
-                    <div className="row justify-content-center">
+                    <div className="row justify-content-center pc">
                         <div className="col header-item">
                             <img src={logo} draggable={false} alt="" />
                         </div>
@@ -33,6 +33,25 @@ export default class HeaderComponent extends React.Component {
                             <div className="lang">En</div>
                             <a href=""><img src={telegram} draggable={false} alt="" /></a>
                             <a href=""><img src={whatsup} draggable={false} alt="" /></a>
+                        </div>
+                    </div>
+                    <div className="row justify-content-between mobile">
+                        <div className="menuWrapper">
+                            <input class="menu-btn" type="checkbox" id="menu-btn" />
+                            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                            <div className="row mobile-menu">
+                                <a href="">Кто я</a>
+                                <a href="">Возможности</a>
+                                <a href="">Переводы</a>
+                                <a href="">Поддержка</a>
+                                <a href="">Контакты</a>
+                            </div>
+                        </div>
+                        <div className="col header-item">
+                            <img src={logo} draggable={false} alt="" />
+                        </div>
+                        <div className="dopinfo">
+                            <a href=""><img src={telegram} draggable={false} alt="" /></a>
                         </div>
                     </div>
                 </div>

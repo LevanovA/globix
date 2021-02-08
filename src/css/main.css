@@ -149,3 +149,7 @@ a.button:active {
 .blackCard, .grayCard, .whiteCard, .greenCard {
     width: fit-content;
 }
+
+.possibility .blackCard, .possibility .grayCard, .possibility .whiteCard, .possibility .greenCard {
+    width: auto;
+}

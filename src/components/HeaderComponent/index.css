@@ -57,14 +57,115 @@
     color: #FFFFFF;
 }
 
+.mobile {
+    display: none;
+}
+
+.header .menu-btn:hover {
+    background-color: #f4f4f4;
+}
+
+.header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px 10px;
+    position: relative;
+    user-select: none;
+    z-index: 101;
+}
+
+.header .menu-icon .navicon {
+    background: #333;
+    display: block;
+    height: 3px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 25px;
+}
+
+.header .menu-icon .navicon:before, .header .menu-icon .navicon:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+    top: 7px;
+}
+
+.header .menu-icon .navicon:after {
+    top: -7px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+    display: none;
+}
+
+.header .menu-btn:checked~.menu {
+    max-height: 240px;
+}
+
+.header .menu-btn:checked~.menu-icon .navicon {
+    background: transparent;
+}
+
+.header .menu-btn:checked~.menu-icon .navicon:before {
+    transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked~.menu-icon .navicon:after {
+    transform: rotate(45deg);
+}
+
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:before, .header .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
+    top: 0;
+}
+
+.header .menu-btn:checked~.mobile-menu {
+    display: flex;
+    transition: all 1s;
+}
+
+.menuWrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0.3rem;
+    left: 0.2rem;
+}
+
+.mobile-menu {
+    display: none;
+    background: white;
+    width: 100vw;
+    position: absolute;
+    z-index: 100;
+    top: -1.9rem;
+    padding-top: 3rem;
+    padding-bottom: 0.7rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mobile-menu a {
+    margin-bottom: 0.6rem;
+}
+
 @media only screen and (max-width: 1700px) {
-    .lang, .header .dopinfo {
+    .lang, .header .pc .dopinfo {
         display: none;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .header .header-item {
+    .header .pc .header-item {
         display: none;
     }
     .header .header-item:first-child {
@@ -73,5 +174,27 @@
     .header {
         padding-top: 1.5rem;
         margin-bottom: 2rem;
+    }
+    .mobile {
+        display: flex;
+    }
+    .pc {
+        display: none;
+    }
+    .header .dopinfo {
+        position: relative;
+        top: 0;
+        right: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    .header .dopinfo a:last-child {
+        right: 0;
+    }
+    .header .dopinfo img {
+        position: relative;
+        top: -0.4rem;
     }
 }

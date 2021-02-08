@@ -28,7 +28,7 @@ export default class WelcomeComponent extends React.Component {
                         </div>
                         <div className="col-md-5 column">
                             <ScrollAnimation
-                                offset={90}
+                                offset={1}
                                 duration={2}
                                 animateOnce={true}
                                 animateIn="fadeInRight">
