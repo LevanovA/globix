@@ -1,6 +1,8 @@
 .p2p {
     background: #F8F8F8;
     border-radius: 509px;
+    padding-bottom: 4rem;
+    margin-bottom: 4rem;
 }
 
 .p2p .row {
@@ -240,6 +242,7 @@
         font-size: 16px;
     }
 }
+
 .p2p img.img1_mobile {
     display: none;
 }
@@ -272,17 +275,22 @@
         display: block;
         margin: 0 auto;
         position: static;
+        margin-top: -3rem;
     }
     .p2p img.img2_mobile {
         display: block;
         margin: 0 auto;
         position: static;
     }
+    .p2p h2 {
+        margin-bottom: 1rem;
+    }
     .p2p h3 {
         text-align: center;
     }
     .p2p h3.text2 {
-        margin-top: 1rem;
+        margin-top: 3rem;
+        margin-bottom: 0;
     }
     .p2p h4.text1 {
         text-align: center;
@@ -311,9 +319,6 @@
         position: static;
         max-width: 320px;
     }
-    .p2p .card2 {
-        margin-bottom: 10px;
-    }
     .p2p .greenCard_title {
         font-size: 34px;
         text-align: center;
@@ -328,6 +333,12 @@
         margin-bottom: 10px;
     }
     .p2p .card_wrapp:last-child {
+        margin-bottom: 0px;
+    }
+    .p2p .card_wrapp2 {
+        margin-bottom: 1rem;
+    }
+    .p2p .card_wrapp2:last-child {
         margin-bottom: 0px;
     }
     .p2p h5.text1 {
@@ -389,6 +400,12 @@
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .p2p h2 {
+        font-size: 42px;
+    }
+}
+
 @media only screen and (max-width: 560px) {
     .p2p img.img1 {
         width: 19rem;
@@ -446,6 +463,7 @@
         left: 0;
     }
 }
+
 @media only screen and (max-width: 428px) {
     .p2p img.img1 {
         width: 16rem;
@@ -454,6 +472,7 @@
         width: 97%;
     }
 }
+
 @media only screen and (max-width: 380px) {
     .p2p h2 {
         font-size: 36px;
@@ -465,6 +484,7 @@
         width: 13rem;
     }
 }
+
 @media only screen and (max-width: 340px) {
     .p2p h2 {
         font-size: 32px;

@@ -129,7 +129,29 @@
 
 .header .menu-btn:checked~.mobile-menu {
     display: flex;
-    transition: all 1s;
+    animation: 0.3s ease-out 0s forwards showCard;
+}
+
+@keyframes showCard {
+    from {
+        top: -17rem;
+        opacity: 0;
+    }
+    to {
+        top: -1.9rem;
+        opacity: 1;
+    }
+}
+
+@keyframes hideCard {
+    from {
+        top: -1.9rem;
+        opacity: 1;
+    }
+    to {
+        top: -17rem;
+        opacity: 0;
+    }
 }
 
 .menuWrapper {
@@ -146,12 +168,13 @@
     width: 100vw;
     position: absolute;
     z-index: 100;
-    top: -1.9rem;
+    top: -17rem;
     padding-top: 3rem;
     padding-bottom: 0.7rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    animation: 0.3s ease-out 0s forwards hideCard;
 }
 
 .mobile-menu a {
@@ -196,5 +219,9 @@
     .header .dopinfo img {
         position: relative;
         top: -0.4rem;
+    }
+    .header .header-item img {
+        position: relative;
+        left: -10px;
     }
 }

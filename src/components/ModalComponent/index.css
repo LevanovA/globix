@@ -119,4 +119,68 @@
     width: auto;
     max-width: 90%;
   }
+  .infomodal_wrapp {
+    display: flex;
+  }
+  .infomodal_imgBox {
+    display: flex;
+    flex-direction: column;
+  }
+  .infomodal_imgBox img {
+    margin-bottom: 21px;
+    position: static;
+  }
+  .infomodal_imgBox img:last-child {
+    margin-bottom: 0px;
+  }
+  .infomodal_textBox {
+    margin-left: 39px;
+    color: #FFFFFF;
+  }
+  .infomodal_title {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 23px;
+    color: #FFFFFF;
+  }
+  .infomodal_subtitle {
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+  .infomodal_descr {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+  }
+  .infomodal_descr {
+    margin-top: 36px;
+  }
+  .infomodal_close {
+    position: absolute;
+    cursor: pointer;
+    right: 4%;
+    top: 2%;
+  }
+  .infomodal_btn {
+    margin-top: 27px;
+    padding: 18px 22px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    font-style: normal;
+    max-width: 230px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    text-align: center;
+    cursor: pointer;
+  }
 }
