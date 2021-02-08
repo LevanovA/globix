@@ -5,12 +5,15 @@ import manWithCard from "../../images/man_with_card.png"
 import ScrollAnimation from 'react-animate-on-scroll';
 import { Parallax } from 'react-scroll-parallax';
 import { ScrollRotate } from 'react-scroll-rotate';
-import coin from "../../images/coin.png"
+import coin1 from "./img/coin1.png"
+import coin2 from "./img/coin2.png"
 
 export default class PossibilityComponent extends React.Component {
     render() {
         return (
             <div className="possibility">
+                <img src={coin1} className="coin1" alt="" draggable={false} />
+                <img src={coin2} className="coin2" alt="" draggable={false} />
                 <div className="container-fluid">
                     <div className="row justify-content-center">
                         <div className="col-md-6">

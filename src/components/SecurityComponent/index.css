@@ -1,6 +1,7 @@
 .security {
     margin-top: -5rem;
     margin-bottom: 5rem;
+    position: relative;
 }
 
 .security h2 {
@@ -51,8 +52,16 @@
     line-height: 20px;
 }
 
+.security .coin1 {
+    position: absolute;
+    top: 7rem;
+    right: 24rem;
+    z-index: 20;
+    animation: 2s linear 0s infinite levitatingAnimation;
+}
+
 @media only screen and (max-width: 1010px) {
-    .security img {
+    .security .img1 {
         position: relative;
         top: 5rem;
         right: 6rem;
@@ -73,7 +82,7 @@
 }
 
 @media only screen and (max-width: 767px) {
-    .security img {
+    .security .img1 {
         position: static;
         margin: 0 auto;
         margin-top: 4rem;
@@ -113,7 +122,7 @@
     .security {
         margin-top: -29rem;
     }
-    .security img {
+    .security .img1 {
         margin-bottom: 2rem;
     }
     .security .row {
@@ -122,7 +131,7 @@
 }
 
 @media only screen and (max-width: 510px) {
-    .security img {
+    .security .img1 {
         width: 23rem;
     }
     .security .blackCard_mobile {
@@ -135,7 +144,7 @@
     .security h2 {
         font-size: 42px;
     }
-    .security img {
+    .security .img1 {
         width: 18rem;
     }
     .security h5 {
@@ -148,8 +157,8 @@
         min-width: 320px;
     }
 }
+
 @media only screen and (max-width: 365px) {
-    
     .security .blackCard_mobile {
         min-width: 285px;
     }

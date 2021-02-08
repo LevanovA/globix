@@ -4,6 +4,7 @@ import securityImg from "../../images/security.png"
 import ScrollAnimation from 'react-animate-on-scroll';
 import { Parallax } from 'react-scroll-parallax';
 import ModalComponent from '../ModalComponent'
+import coin1 from "./img/coin1.png"
 
 export default class SecurityComponent extends React.Component {
     constructor(props) {
@@ -29,6 +30,7 @@ export default class SecurityComponent extends React.Component {
         return (
             <>
                 <div className="security">
+                    <img src={coin1} className="coin1" alt="" draggable={false} />
                     <div className="container-fluid section">
                         <div className="row">
                             <div className="col-md-6">
@@ -37,7 +39,7 @@ export default class SecurityComponent extends React.Component {
                                     offset={600}
                                     animateOnce={true}
                                     animateIn="fadeInLeft">
-                                    <img src={securityImg} draggable={false} alt="" />
+                                    <img src={securityImg} className="img1" draggable={false} alt="" />
                                 </ScrollAnimation>
                                 <ScrollAnimation
                                     offset={200}

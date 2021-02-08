@@ -1,5 +1,6 @@
 .forpeople {
     padding-top: 2rem;
+    position: relative;
 }
 
 .forpeople h2 {
@@ -14,19 +15,27 @@
     margin: 3rem 0;
 }
 
-.forpeople img {
+.forpeople .img1 {
     width: 100%;
     position: relative;
 }
 
+.forpeople .coin1 {
+    position: absolute;
+    top: 16rem;
+    right: 60rem;
+    z-index: 20;
+    animation: 2s linear 0s infinite levitatingAnimation;
+}
+
 @media only screen and (max-width: 1776px) {
-    .forpeople img {
+    .forpeople .img1 {
         top: 3rem;
     }
 }
 
 @media only screen and (max-width: 1150px) {
-    .forpeople img {
+    .forpeople .img1 {
         width: 32rem;
     }
 }
@@ -35,19 +44,19 @@
     .forpeople {
         margin-top: -10rem;
     }
-    .forpeople img {
+    .forpeople .img1 {
         left: -12%;
     }
 }
 
 @media only screen and (max-width: 946px) {
-    .forpeople img {
+    .forpeople .img1 {
         top: 4.5rem;
     }
 }
 
 @media only screen and (max-width: 890px) {
-    .forpeople img {
+    .forpeople .img1 {
         left: -20%;
     }
     .forpeople h2 {
@@ -57,13 +66,13 @@
 }
 
 @media only screen and (max-width: 800px) {
-    .forpeople img {
+    .forpeople .img1 {
         left: -30%;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .forpeople img {
+    .forpeople .img1 {
         left: 0;
         top: 0;
         width: 29rem;

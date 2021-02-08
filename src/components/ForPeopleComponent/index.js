@@ -4,6 +4,7 @@ import forpeopleImg from "../../images/forpeople.png"
 import ScrollAnimation from 'react-animate-on-scroll';
 import { Parallax } from 'react-scroll-parallax';
 import ModalComponent from '../ModalComponent'
+import coin1 from "./img/coin1.png"
 
 export default class ForPeopleComponent extends React.Component {
     constructor(props) {
@@ -29,6 +30,7 @@ export default class ForPeopleComponent extends React.Component {
         return (
             <>
                 <div className="forpeople">
+                    <img src={coin1} className="coin1" alt="" draggable={false} />
                     <div className="container-fluid section">
                         <div className="row">
                             <div className="col-md-6 column">
@@ -45,7 +47,7 @@ export default class ForPeopleComponent extends React.Component {
                                     // offset={600}
                                     animateOnce={true}
                                     animateIn="fadeInRight">
-                                    <img src={forpeopleImg} draggable={false} alt="" />
+                                    <img src={forpeopleImg} className="img1" draggable={false} alt="" />
                                 </ScrollAnimation>
                             </div>
                         </div>

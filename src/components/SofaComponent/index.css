@@ -1,5 +1,6 @@
 .sofa {
     margin-top: -10rem;
+    position: relative;
 }
 
 .sofa .row {
@@ -31,8 +32,80 @@
     margin-bottom: 2.5rem;
 }
 
-.sofa img {
+.sofa .sofaImg {
     width: 100%;
+}
+
+.sofa .coin1 {
+    position: absolute;
+    top: 21rem;
+    left: 49rem;
+    z-index: 20;
+    animation: 2s linear 0s infinite levitatingAnimation;
+}
+
+.sofa .coin2 {
+    position: absolute;
+    top: 26rem;
+    left: 27rem;
+    z-index: 20;
+    animation: 2s linear 0s infinite levitatingAnimation;
+}
+
+.sofa .coin3 {
+    position: absolute;
+    top: 30rem;
+    left: 40rem;
+    z-index: 20;
+    animation: 2s linear 0s infinite levitatingAnimation;
+}
+
+.sofa .coin4 {
+    position: absolute;
+    top: 35rem;
+    left: 36rem;
+    z-index: 20;
+    animation: 2s linear 0s infinite levitatingAnimation;
+}
+
+.sofa .coin5 {
+    position: absolute;
+    top: 36rem;
+    left: 60rem;
+    z-index: 20;
+    animation: 2s linear 0s infinite levitatingAnimation;
+}
+
+.sofa .coin6 {
+    position: absolute;
+    top: 38rem;
+    left: 36rem;
+    z-index: 20;
+    animation: 2s linear 0s infinite levitatingAnimation;
+}
+
+.sofa .coin7 {
+    position: absolute;
+    top: 40rem;
+    left: 41rem;
+    z-index: 20;
+    animation: 2s linear 0s infinite levitatingAnimation;
+}
+
+.sofa .coin8 {
+    position: absolute;
+    top: 46rem;
+    left: 39rem;
+    z-index: 20;
+    animation: 2s linear 0s infinite levitatingAnimation;
+}
+
+.sofa .coin9 {
+    position: absolute;
+    top: 45rem;
+    left: 53rem;
+    z-index: 20;
+    animation: 2s linear 0s infinite levitatingAnimation;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -80,7 +153,7 @@
     .sofa {
         margin-top: 25rem;
     }
-    .sofa img {
+    .sofa .sofaImg {
         width: 170%;
     }
     .sofaCircle {
@@ -106,7 +179,7 @@
 }
 
 @media only screen and (max-width: 420px) {
-    .sofa img {
+    .sofa .sofaImg {
         margin-top: 1rem;
     }
 }
