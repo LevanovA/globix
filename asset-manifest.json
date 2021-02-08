@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/globix/static/css/main.902d461d.chunk.css",
+    "main.css": "/globix/static/css/main.cc6cd87f.chunk.css",
     "main.js": "/globix/static/js/main.2aa1e0a6.chunk.js",
     "main.js.map": "/globix/static/js/main.2aa1e0a6.chunk.js.map",
     "runtime-main.js": "/globix/static/js/runtime-main.04439c62.js",
@@ -9,10 +9,10 @@
     "static/js/2.986b3dff.chunk.js": "/globix/static/js/2.986b3dff.chunk.js",
     "static/js/2.986b3dff.chunk.js.map": "/globix/static/js/2.986b3dff.chunk.js.map",
     "index.html": "/globix/index.html",
-    "precache-manifest.44b6558a39e19e91a6d790183e9b7cd9.js": "/globix/precache-manifest.44b6558a39e19e91a6d790183e9b7cd9.js",
+    "precache-manifest.85554790c67faa76c2590dca280a5ccc.js": "/globix/precache-manifest.85554790c67faa76c2590dca280a5ccc.js",
     "service-worker.js": "/globix/service-worker.js",
     "static/css/2.3d3426d2.chunk.css.map": "/globix/static/css/2.3d3426d2.chunk.css.map",
-    "static/css/main.902d461d.chunk.css.map": "/globix/static/css/main.902d461d.chunk.css.map",
+    "static/css/main.cc6cd87f.chunk.css.map": "/globix/static/css/main.cc6cd87f.chunk.css.map",
     "static/js/2.986b3dff.chunk.js.LICENSE.txt": "/globix/static/js/2.986b3dff.chunk.js.LICENSE.txt",
     "static/media/main.css": "/globix/static/media/circe_thin.d41d8cd9.woff",
     "static/media/cursor.png": "/globix/static/media/cursor.9112f030.png",
@@ -39,7 +39,7 @@
     "static/js/runtime-main.04439c62.js",
     "static/css/2.3d3426d2.chunk.css",
     "static/js/2.986b3dff.chunk.js",
-    "static/css/main.902d461d.chunk.css",
+    "static/css/main.cc6cd87f.chunk.css",
     "static/js/main.2aa1e0a6.chunk.js"
   ]
 }
