@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aff0e732952f761bcaf3ceef1f79f288",
+    "revision": "e33e4fb7929410607c250ddb4dce423b",
     "url": "/globix/index.html"
   },
   {
-    "revision": "f64e100951b756e2940c",
+    "revision": "542203d11c5412817d95",
     "url": "/globix/static/css/2.3d3426d2.chunk.css"
   },
   {
-    "revision": "a3a82901418e1d59fb45",
-    "url": "/globix/static/css/main.cc6cd87f.chunk.css"
+    "revision": "586c9dbeaf4fe4e1e00a",
+    "url": "/globix/static/css/main.af66cc91.chunk.css"
   },
   {
-    "revision": "f64e100951b756e2940c",
-    "url": "/globix/static/js/2.986b3dff.chunk.js"
+    "revision": "542203d11c5412817d95",
+    "url": "/globix/static/js/2.e738b993.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/globix/static/js/2.986b3dff.chunk.js.LICENSE.txt"
+    "url": "/globix/static/js/2.e738b993.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a3a82901418e1d59fb45",
-    "url": "/globix/static/js/main.2aa1e0a6.chunk.js"
+    "revision": "586c9dbeaf4fe4e1e00a",
+    "url": "/globix/static/js/main.aedecc26.chunk.js"
   },
   {
     "revision": "7e44515c92445ff1cc2f",
     "url": "/globix/static/js/runtime-main.04439c62.js"
+  },
+  {
+    "revision": "49e6c6263aeb5def4c475b8c772b71e0",
+    "url": "/globix/static/media/circe.49e6c626.svg"
   },
   {
     "revision": "6998a886e02ef4b971981d0265a49f06",
@@ -36,10 +40,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/globix/static/media/circe.6b28c593.ttf"
   },
   {
-    "revision": "70b2f11cf227a0a3adb31ed19687251e",
-    "url": "/globix/static/media/circe.70b2f11c.svg"
-  },
-  {
     "revision": "d41d8cd98f00b204e9800998ecf8427e",
     "url": "/globix/static/media/circe.d41d8cd9.woff"
   },
@@ -48,16 +48,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/globix/static/media/circe.f31036e3.eot"
   },
   {
+    "revision": "104461a958cbdc98c4e79236d1f52550",
+    "url": "/globix/static/media/circe_bold.104461a9.svg"
+  },
+  {
     "revision": "22f16521a7d16c7f8342680cf30b46bd",
     "url": "/globix/static/media/circe_bold.22f16521.ttf"
   },
   {
     "revision": "7cc1c2e4adf15ab1a64b9dd88e470746",
     "url": "/globix/static/media/circe_bold.7cc1c2e4.woff2"
-  },
-  {
-    "revision": "84fca8f4baf01d15a5f511679a51821e",
-    "url": "/globix/static/media/circe_bold.84fca8f4.svg"
   },
   {
     "revision": "d03912559b0307467ac09ba244f6d48e",
@@ -72,10 +72,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/globix/static/media/circe_extrabold.3f989ce7.woff2"
   },
   {
-    "revision": "8f37fe4e0867ec304810b86a9ce27452",
-    "url": "/globix/static/media/circe_extrabold.8f37fe4e.svg"
-  },
-  {
     "revision": "9964577d9fa04e9bfae4e7d8435b144e",
     "url": "/globix/static/media/circe_extrabold.9964577d.eot"
   },
@@ -88,12 +84,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/globix/static/media/circe_extrabold.d41d8cd9.woff"
   },
   {
-    "revision": "17146c839774d155d24b4aba8a418c8c",
-    "url": "/globix/static/media/circe_extralight.17146c83.svg"
+    "revision": "d77a926c1cbb08c925ecca6098049ba3",
+    "url": "/globix/static/media/circe_extrabold.d77a926c.svg"
   },
   {
     "revision": "29443ed38302b5e788cb17d7ae4b14e2",
     "url": "/globix/static/media/circe_extralight.29443ed3.woff2"
+  },
+  {
+    "revision": "7aa455845c282079c0ee311d004533ad",
+    "url": "/globix/static/media/circe_extralight.7aa45584.svg"
   },
   {
     "revision": "92d19f40aa26320b71dc7983a56695f8",
@@ -112,12 +112,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/globix/static/media/circe_light.12e71298.eot"
   },
   {
-    "revision": "54416da0350122dabcc0cc45c893497e",
-    "url": "/globix/static/media/circe_light.54416da0.woff2"
+    "revision": "4b63e0aa5790f0f785ac7edb310a3308",
+    "url": "/globix/static/media/circe_light.4b63e0aa.svg"
   },
   {
-    "revision": "79bff91d158f41f1233999a7c035ca7f",
-    "url": "/globix/static/media/circe_light.79bff91d.svg"
+    "revision": "54416da0350122dabcc0cc45c893497e",
+    "url": "/globix/static/media/circe_light.54416da0.woff2"
   },
   {
     "revision": "9fd3216596f21252abbdbc053769134e",
@@ -128,8 +128,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/globix/static/media/circe_light.d41d8cd9.woff"
   },
   {
-    "revision": "54932459440eca3c3a23898737de7a03",
-    "url": "/globix/static/media/circe_thin.54932459.svg"
+    "revision": "16373620247cdfd5c8f39bd292d45c52",
+    "url": "/globix/static/media/circe_thin.16373620.svg"
   },
   {
     "revision": "8a6928dabfc92fdf4fa5fa4f53534cab",
@@ -152,8 +152,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/globix/static/media/cursor.9112f030.png"
   },
   {
-    "revision": "a3b7966d431d54041f8d7c961bad29e2",
-    "url": "/globix/static/media/exit.a3b7966d.svg"
+    "revision": "b6b80debfccacdacfd173c9accec4123",
+    "url": "/globix/static/media/exit.b6b80deb.svg"
   },
   {
     "revision": "3315d641ec9f10dd2493971f10f01a72",
@@ -172,8 +172,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/globix/static/media/knowledges.cbeb9773.png"
   },
   {
-    "revision": "68cdcf0f95914364cbd7acd5581fb7f0",
-    "url": "/globix/static/media/logo.68cdcf0f.svg"
+    "revision": "6c63daf96579834bfa9ae4cfda8d4214",
+    "url": "/globix/static/media/logo.6c63daf9.svg"
   },
   {
     "revision": "87212474776fbc2d11a72a0ddbf064e5",
@@ -224,15 +224,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/globix/static/media/sofa.1342da9b.png"
   },
   {
-    "revision": "3fc90d1d2b24c5930cb6ebbe69575f5b",
-    "url": "/globix/static/media/telegram.3fc90d1d.svg"
+    "revision": "a5f369cc24f1beac9d1767f12fdd6577",
+    "url": "/globix/static/media/telegram.a5f369cc.svg"
   },
   {
-    "revision": "ad9f6f3ca97f4bf0395edbf68642c5bc",
-    "url": "/globix/static/media/wavyLine.ad9f6f3c.svg"
+    "revision": "f3f1c883834e7ab07c5aa68a568ed0a0",
+    "url": "/globix/static/media/wavyLine.f3f1c883.svg"
   },
   {
-    "revision": "6cfdefcc186accea9d717c5d1941de52",
-    "url": "/globix/static/media/whatsup.6cfdefcc.svg"
+    "revision": "db273a7fdd7aa59cdb7348192054efa3",
+    "url": "/globix/static/media/whatsup.db273a7f.svg"
   }
 ]);
