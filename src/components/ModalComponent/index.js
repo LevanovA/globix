@@ -14,7 +14,7 @@ export default class ModalComponent extends React.Component {
     render() {
         return (
             <div className={`modalComponent ${this.props.hideClass ? 'hide' : ''}`}>
-                <div className="modalBackground" />
+                <div className="modalBackground" onClick={() => this.props.onClose()} />
                 <div className="modalWrapper">
                     <img
                         alt=""
@@ -73,7 +73,7 @@ export default class ModalComponent extends React.Component {
                                         <span className="infomodal_subtitle">между пользователями</span>
                                     </div>
                                     <div className="infomodal_descr">
-                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст 
+                                        Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст
                                     </div>
                                     <div className="infomodal_imgBox infomodal_imgBox_mobile">
                                         <img src={popupImg1} draggable={false} alt="" />
