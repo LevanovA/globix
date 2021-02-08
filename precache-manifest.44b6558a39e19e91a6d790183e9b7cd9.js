@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cce1214e5b62e7a24599505ee1ac2dcd",
+    "revision": "1aef5a4137a585c7e1ff95a4ab9caaa7",
     "url": "/globix/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/globix/static/css/2.3d3426d2.chunk.css"
   },
   {
-    "revision": "e3e977ab17c437576c62",
-    "url": "/globix/static/css/main.61fa05d4.chunk.css"
+    "revision": "464880cf7a6ed439b176",
+    "url": "/globix/static/css/main.902d461d.chunk.css"
   },
   {
     "revision": "f64e100951b756e2940c",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/globix/static/js/2.986b3dff.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e3e977ab17c437576c62",
+    "revision": "464880cf7a6ed439b176",
     "url": "/globix/static/js/main.2aa1e0a6.chunk.js"
   },
   {
