@@ -52,6 +52,7 @@
     }
     .forpeople h2 {
         font-size: 58px;
+        line-height: 60px;
     }
 }
 
@@ -64,7 +65,7 @@
 @media only screen and (max-width: 768px) {
     .forpeople img {
         left: 0;
-        top: -44rem;
+        top: 0;
         width: 29rem;
     }
     .forpeople {
@@ -82,5 +83,30 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    .forpeople .animated {
+        position: relative;
+        top: -44rem;
+    }
+}
+
+@media only screen and (max-width: 473px) {
+    .forpeople .animated {
+        position: relative;
+        top: -46rem;
+    }
+}
+
+@media only screen and (max-width: 466px) {
+    .forpeople .animated {
+        position: relative;
+        top: -48rem;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .forpeople .animated {
+        position: relative;
+        top: -50rem;
     }
 }
