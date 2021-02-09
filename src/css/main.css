@@ -159,3 +159,15 @@ a.button:active {
 .possibility .blackCard, .possibility .grayCard, .possibility .whiteCard, .possibility .greenCard {
     width: auto;
 }
+
+@keyframes levitatingAnimation {
+    0% {
+        transform: translateY(-0.5rem);
+    }
+    50% {
+        transform: translateY(0.5rem);
+    }
+    100% {
+        transform: translateY(-0.5rem);
+    }
+}

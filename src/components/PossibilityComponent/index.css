@@ -1,5 +1,6 @@
 .possibility {
     margin-top: 8rem;
+    position: relative;
 }
 
 .possibility h2 {
@@ -94,6 +95,22 @@
 .manwithcard {
     margin-top: -8rem;
     margin-left: -22rem;
+}
+
+.possibility .coin1 {
+    position: absolute;
+    top: 5rem;
+    right: 40rem;
+    z-index: 20;
+    animation: 2s linear 0s infinite levitatingAnimation;
+}
+
+.possibility .coin2 {
+    position: absolute;
+    top: 35rem;
+    right: 65rem;
+    z-index: 20;
+    animation: 2s linear 0s infinite levitatingAnimation;
 }
 
 @media only screen and (max-width: 1024px) {

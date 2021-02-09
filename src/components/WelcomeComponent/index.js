@@ -4,6 +4,8 @@ import iphone from "../../images/iphone.png"
 import ScrollAnimation from 'react-animate-on-scroll';
 import { Parallax } from 'react-scroll-parallax';
 import ModalComponent from '../ModalComponent'
+import coin1 from "./img/coin1.png"
+import coin2 from "./img/coin2.png"
 
 export default class WelcomeComponent extends React.Component {
     constructor(props) {
@@ -29,6 +31,8 @@ export default class WelcomeComponent extends React.Component {
         return (
             <>
                 <div className="welcome">
+                    <img src={coin1} className="coin1" alt="" draggable={false} />
+                    <img src={coin2} className="coin2" alt="" draggable={false} />
                     <div className="container-fluid">
                         <div className="row justify-content-center">
                             <div className="col-md-7 column">

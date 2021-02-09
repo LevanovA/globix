@@ -1,3 +1,7 @@
+.welcome {
+    position: relative;
+}
+
 .welcome h1 {
     font-size: 72px;
     line-height: 76px;
@@ -11,13 +15,28 @@
 
 .welcome img {
     position: relative;
-    /* left: 4.5rem; */
     top: 0;
 }
 
 .welcome span.eb {
     font-size: 25px;
     line-height: 26px;
+}
+
+.welcome .coin1 {
+    position: absolute;
+    top: 1rem;
+    right: 46rem;
+    z-index: 20;
+    animation: 2s linear 0s infinite levitatingAnimation;
+}
+
+.welcome .coin2 {
+    position: absolute;
+    top: 5rem;
+    right: 28rem;
+    z-index: 20;
+    animation: 2s linear 0s infinite levitatingAnimation;
 }
 
 .littleCard {
