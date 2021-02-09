@@ -26,7 +26,7 @@ export default class ModalComponent extends React.Component {
     submitForm = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_d4uh9r8', 'template_0xd74ou', e.target, 'user_H1j0Mj3mSJxH8DmHiiO10')
+        emailjs.sendForm('service_5r06iak', 'template_0p0d02q', e.target, 'user_l8cYp1mx4vd30zDeRe3bE')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
