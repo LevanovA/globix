@@ -1,5 +1,6 @@
 .welcome {
     position: relative;
+    padding-top: 6rem;
 }
 
 .welcome h1 {
@@ -25,7 +26,7 @@
 
 .welcome .coin1 {
     position: absolute;
-    top: 10%;
+    top: 22%;
     right: 32%;
     z-index: 20;
     animation: 2s linear 0s infinite levitatingAnimation;
@@ -33,7 +34,7 @@
 
 .welcome .coin2 {
     position: absolute;
-    top: 20%;
+    top: 30%;
     right: 20%;
     z-index: 20;
     animation: 2s linear 0s infinite levitatingAnimation;
@@ -116,7 +117,7 @@
         right: 27%;
     }
     .welcome .coin2 {
-        top: 15%;
+        top: 30%;
         right: 13%;
     }
 }
@@ -183,11 +184,11 @@
     }
     .welcome .coin1 {
         right: 67%;
-        top: 40%;
+        top: 47%;
     }
     .welcome .coin2 {
         right: 48%;
-        top: 28%;
+        top: 42%;
     }
 }
 
