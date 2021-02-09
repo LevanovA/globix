@@ -12,7 +12,7 @@ export default class FooterComponent extends React.Component {
                         <div className="col-md-12">
                             <div className="row justify-content-space-between header">
                                 <div className="col header-item">
-                                    <img src={logo} draggable={false} alt="" />
+                                    <a target="_blank" href="https://t.me/GlobixCashBot"><img src={logo} draggable={false} alt="" /></a>
                                 </div>
                                 <div className="col header-item">
                                     <a href="">Кто я</a>

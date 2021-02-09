@@ -5,6 +5,11 @@
     font-family: 'Circe';
 }
 
+a {
+    outline: none;
+    border: none;
+}
+
 @font-face {
     font-family: 'Circe Bold';
     src: url('../fonts/circe_bold.eot');

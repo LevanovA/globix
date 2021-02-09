@@ -5,6 +5,7 @@ import { Parallax } from 'react-scroll-parallax';
 import popupImg1 from "../../images/popupImg1.png";
 import popupImg2 from "../../images/popupImg2.png";
 import popupImg3 from "../../images/popupImg3.png";
+import emailjs from "emailjs-com";
 
 export default class ModalComponent extends React.Component {
     constructor(props) {
@@ -23,46 +24,18 @@ export default class ModalComponent extends React.Component {
     }
     
     submitForm = (e) => {
-
         e.preventDefault();
 
-        const {
-            name,
-            email, 
-            message
-        } = this.state;
-        
-        let data = {name: name, email: email, message: message};
-
-        console.log(data);
-        fetch('../../send.php', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(data),
-            
-        })
-        .then((response) => {
-            if (response.status === 200 && (message !== '' || name !== '')) {
-                console.log('Отправии');
-            }
-            else {
-                console.log('ошибка валидации');
-            }
-            if (response.status !== 200) {
-                throw new Error('status network not 200');
-            }
+        emailjs.sendForm('service_d4uh9r8', 'template_0xd74ou', e.target, 'user_H1j0Mj3mSJxH8DmHiiO10')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
         });
+        e.target.reset();
     }
 
     render() {
-
-        const {
-            name,
-            email, 
-            message
-        } = this.state;
 
         return (
             <div className={`modalComponent ${this.props.hideClass ? 'hide' : ''}`}>
@@ -90,17 +63,17 @@ export default class ModalComponent extends React.Component {
                                     <div className="row justify-content-between">
                                         <div className="col-md-6">
                                             <h5>Ваше имя</h5>
-                                            <input required type="text" value={name} onChange={this.handleChange('name')} />
+                                            <input required type="text" name="name" />
                                         </div>
                                         <div className="col-md-6">
                                             <h5>Ваш e-mail</h5>
-                                            <input required type="email" value={email} onChange={this.handleChange('email')}/>
+                                            <input required type="email" name="email" />
                                         </div>
                                     </div>
                                     <div className="row justify-content-between">
                                         <div className="col-md-12">
                                             <h5>Ваш вопрос</h5>
-                                            <textarea type="text" value={message} onChange={this.handleChange('message')}></textarea>
+                                            <textarea required type="text" name="message"></textarea>
                                         </div>
                                     </div>
                                     <div className="row justify-content-center">

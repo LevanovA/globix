@@ -12,7 +12,7 @@ export default class HeaderComponent extends React.Component {
                 <div className="container-fluid">
                     <div className="row justify-content-center pc">
                         <div className="col header-item">
-                            <img src={logo} draggable={false} alt="" />
+                            <a target="_blank" href="https://t.me/GlobixCashBot"><img src={logo} draggable={false} alt="" /></a>
                         </div>
                         <div className="col header-item">
                             <a href="">Кто я</a>
@@ -31,7 +31,7 @@ export default class HeaderComponent extends React.Component {
                         </div>
                         <div className="dopinfo">
                             <div className="lang">En</div>
-                            <a href=""><img src={telegram} draggable={false} alt="" /></a>
+                            <a target="_blank" href="https://t.me/GlobixCashBot"><img src={telegram} draggable={false} alt="" /></a>
                             <a href=""><img src={whatsup} draggable={false} alt="" /></a>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ export default class HeaderComponent extends React.Component {
                             <img src={logo} draggable={false} alt="" />
                         </div>
                         <div className="dopinfo">
-                            <a href=""><img src={telegram} draggable={false} alt="" /></a>
+                            <a target="_blank" href="https://t.me/GlobixCashBot"><img src={telegram} draggable={false} alt="" /></a>
                         </div>
                     </div>
                 </div>

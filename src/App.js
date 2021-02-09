@@ -31,7 +31,7 @@ class App extends React.Component {
         <ForPeopleComponent />
         <SecurityComponent />
         <KnowledgesComponent />
-        <P2PComponent />
+        {/* <P2PComponent /> */}
         <StartBotComponent />
         <PrefooterComponent />
         <FooterComponent />
