@@ -3,7 +3,6 @@ import './index.css'
 import sofa from "../../images/sofa.png"
 import ScrollAnimation from 'react-animate-on-scroll';
 import { Parallax } from 'react-scroll-parallax';
-import ModalComponent from '../ModalComponent'
 
 import coin1 from "./img/coin1.png"
 import coin2 from "./img/coin2.png"
@@ -16,38 +15,22 @@ import coin8 from "./img/coin8.png"
 import coin9 from "./img/coin9.png"
 
 export default class SofaComponent extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            hideClass: true,
-            isModalAForm: true
-        }
-    }
-
-    onClose() {
-        this.setState({ hideClass: true });
-    }
-
-    openModal() {
-        this.setState({
-            hideClass: false,
-            isModalAForm: true
-        })
-    }
-
+    
     render() {
         return (
             <>
-                <div className="sofa">
-                    <img src={coin1} className="coin1" alt="" draggable={false} />
-                    <img src={coin2} className="coin2" alt="" draggable={false} />
-                    <img src={coin3} className="coin3" alt="" draggable={false} />
-                    <img src={coin4} className="coin4" alt="" draggable={false} />
-                    <img src={coin5} className="coin5" alt="" draggable={false} />
-                    <img src={coin6} className="coin6" alt="" draggable={false} />
-                    <img src={coin7} className="coin7" alt="" draggable={false} />
-                    <img src={coin8} className="coin8" alt="" draggable={false} />
-                    <img src={coin9} className="coin9" alt="" draggable={false} />
+                <div id="sofa" className="sofa">
+                    <div className="coinContainer">
+                        <img src={coin1} className="coin1" alt="" draggable={false} />
+                        <img src={coin2} className="coin2" alt="" draggable={false} />
+                        <img src={coin3} className="coin3" alt="" draggable={false} />
+                        <img src={coin4} className="coin4" alt="" draggable={false} />
+                        <img src={coin5} className="coin5" alt="" draggable={false} />
+                        <img src={coin6} className="coin6" alt="" draggable={false} />
+                        <img src={coin7} className="coin7" alt="" draggable={false} />
+                        <img src={coin8} className="coin8" alt="" draggable={false} />
+                        <img src={coin9} className="coin9" alt="" draggable={false} />
+                    </div>
                     <div className="container-fluid section">
                         <div className="row">
                             <div className="sofaCircle_title extraBold hide">
@@ -73,15 +56,11 @@ export default class SofaComponent extends React.Component {
                                     <span className="bold">Доступно в более чем<br />
                                 100 стран мира</span>
                                 </div>
-                                <a onClick={() => this.openModal()} className="button" target="_blank">Начать сейчас</a>
+                                <a href="https://t.me/GlobixCashBot" className="button" target="_blank">Начать сейчас</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <ModalComponent
-                    isModalAForm={this.state.isModalAForm}
-                    hideClass={this.state.hideClass}
-                    onClose={() => this.onClose()} />
             </>
         )
     }

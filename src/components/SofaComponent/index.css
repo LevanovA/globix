@@ -6,7 +6,9 @@
 .sofa .row {
     position: relative;
 }
-
+.sofa .coinContainer {
+    position: absolute;
+}
 .sofaCircle {
     background: linear-gradient(57.8deg, rgba(244, 244, 244, 0.71) 18.82%, #F4F4F4 85.33%);
     border-radius: 50%;
@@ -143,9 +145,77 @@
     }
 }
 
+@media only screen and (max-width: 1706px) {
+    .sofa .coinContainer {
+        left: -12%;
+    } 
+}
+
+@media only screen and (max-width: 1518px) {
+    .sofa .coinContainer {
+        left: -21%;
+    } 
+}
+
+@media only screen and (max-width: 1352px) {
+    .sofa .coinContainer {
+        left: -27%;
+    } 
+    .sofa img {
+        width: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1236px) {
+    .sofa .coinContainer {
+        left: -33%;
+    } 
+    .sofa .coin5 {
+        display: none;
+    }
+    .sofa .coin9 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1176px) {
+    .sofa img {
+        width: 1.5rem;
+    } 
+}
+@media only screen and (max-width: 1024px) {
+    .sofa .coinContainer {
+        top: -12%;
+    } 
+    .sofa .coin5 {
+        display: block;
+    }
+    .sofa .coin9 {
+        display: block;
+    }
+   
+}
+
 @media only screen and (max-width: 948px) {
     .sofa {
         margin-top: 16rem;
+    }
+}
+
+@media only screen and (max-width: 882px) {
+    .sofa .coinContainer {
+        top: -16%;
+    } 
+    .sofa .coin5 {
+        display: none;
+    }
+    .sofa .coin9 {
+        display: none;
+    }
+    .sofa .coin8 {
+        display: none;
+    }
+    .sofa .coin1 {
+        display: none;
     }
 }
 
@@ -159,6 +229,12 @@
     .sofaCircle {
         top: -2rem;
     }
+    .sofa img {
+        width: 2rem;
+    }
+    .sofa .coinContainer {
+        top: -2%;
+    }
 }
 
 @media only screen and (max-width: 630px) {
@@ -169,6 +245,10 @@
         width: 80%;
         padding: 1.1rem 0;
     }
+    .sofa .coinContainer {
+        top: -14%;
+        left: -53%;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -176,10 +256,35 @@
         font-size: 50px;
         line-height: 55px;
     }
+    .sofa .coinContainer {
+        top: -25%;
+        left: -75%;
+    }
 }
 
 @media only screen and (max-width: 420px) {
     .sofa .sofaImg {
         margin-top: 1rem;
+    }
+    .sofa .coinContainer {
+        top: -26%;
+        left: -94%;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .sofa .coinContainer {
+        top: -30%;
+    }
+}
+@media only screen and (max-width: 372px) {
+    .sofa .coinContainer {
+        top: -36%;
+        left: -109%;
+    }
+}
+@media only screen and (max-width: 348px) {
+    .sofa .coinContainer {
+        top: -40%;
+        left: -115%;
     }
 }

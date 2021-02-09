@@ -3,33 +3,14 @@ import './index.css'
 import forpeopleImg from "../../images/forpeople.png"
 import ScrollAnimation from 'react-animate-on-scroll';
 import { Parallax } from 'react-scroll-parallax';
-import ModalComponent from '../ModalComponent'
 import coin1 from "./img/coin1.png"
 
 export default class ForPeopleComponent extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            hideClass: true,
-            isModalAForm: true
-        }
-    }
-
-    onClose() {
-        this.setState({ hideClass: true });
-    }
-
-    openModal() {
-        this.setState({
-            hideClass: false,
-            isModalAForm: true
-        })
-    }
-
+    
     render() {
         return (
             <>
-                <div className="forpeople">
+                <div id="forpeople" className="forpeople">
                     <img src={coin1} className="coin1" alt="" draggable={false} />
                     <div className="container-fluid section">
                         <div className="row">
@@ -40,7 +21,7 @@ export default class ForPeopleComponent extends React.Component {
                             Мы совершенствуем нашего бота и прислушиваемся<br />
                             к нашим пользователям. <span className="bold">Сделаем его лучше вместе!</span>
                                 </h5>
-                                <a onClick={() => this.openModal()} className="button" target="_blank">Изучить бота</a>
+                                <a href="https://t.me/GlobixCashBot" className="button" target="_blank">Изучить бота</a>
                             </div>
                             <div className="col-md-6 column">
                                 <ScrollAnimation
@@ -53,10 +34,6 @@ export default class ForPeopleComponent extends React.Component {
                         </div>
                     </div>
                 </div>
-                <ModalComponent
-                    isModalAForm={this.state.isModalAForm}
-                    hideClass={this.state.hideClass}
-                    onClose={() => this.onClose()} />
             </>
         )
     }

@@ -105,7 +105,7 @@ export default class ModalComponent extends React.Component {
                                         <img src={popupImg2} draggable={false} alt="" />
                                         <img src={popupImg3} draggable={false} alt="" />
                                     </div>
-                                    <div className="infomodal_btn">Попробовать</div>
+                                    <a href="https://t.me/GlobixCashBot" target="_blank" ><div className="infomodal_btn">Попробовать</div></a>
                                 </div>
                             </div>
                         </div>}

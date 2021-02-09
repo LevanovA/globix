@@ -12,25 +12,25 @@ export default class FooterComponent extends React.Component {
                         <div className="col-md-12">
                             <div className="row justify-content-space-between header">
                                 <div className="col header-item">
-                                    <a target="_blank" href="https://t.me/GlobixCashBot"><img src={logo} draggable={false} alt="" /></a>
+                                    <img src={logo} draggable={false} alt="" />
                                 </div>
                                 <div className="col header-item">
-                                    <a href="">Кто я</a>
+                                    <a href="#welcome">Кто я</a>
                                 </div>
                                 <div className="col header-item">
-                                    <a href="">Возможности</a>
+                                    <a href="#possibility">Возможности</a>
                                 </div>
                                 <div className="col header-item">
-                                    <a href="">Переводы</a>
+                                    <a href="#sofa">Переводы</a>
                                 </div>
                                 <div className="col header-item">
-                                    <a href="">Поддержка</a>
+                                    <a href="#forpeople">Поддержка</a>
                                 </div>
                                 <div className="col header-item">
-                                    <a href="">Контакты</a>
+                                    <a href="#startbot">Контакты</a>
                                 </div>
+                                    </div>
                             </div>
-                        </div>
                         <div className="col-md-12 politics">
                             <div className="row">
                                 <a href="" target="_blank">Раскрытие информации</a>

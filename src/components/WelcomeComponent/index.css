@@ -25,16 +25,16 @@
 
 .welcome .coin1 {
     position: absolute;
-    top: 1rem;
-    right: 46rem;
+    top: 10%;
+    right: 32%;
     z-index: 20;
     animation: 2s linear 0s infinite levitatingAnimation;
 }
 
 .welcome .coin2 {
     position: absolute;
-    top: 5rem;
-    right: 28rem;
+    top: 20%;
+    right: 20%;
     z-index: 20;
     animation: 2s linear 0s infinite levitatingAnimation;
 }
@@ -57,17 +57,80 @@
     line-height: 20px;
 }
 
+@media only screen and (max-width: 1596px) {
+    .welcome .coin1 {
+        right: 29%;
+    }
+    .welcome .coin2 {
+        right: 17%;
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+    .welcome .coin1 {
+        right: 26%;
+    }
+    .welcome .coin2 {
+        right: 15%;
+    }
+}
+
+@media only screen and (max-width: 1340px) {
+    .welcome .coin1 {
+        right: 24%;
+    }
+    .welcome .coin2 {
+        right: 11%;
+    }
+}
+
+@media only screen and (max-width: 1192px) {
+    .welcome .coin1 {
+        right: 22%;
+    }
+    .welcome .coin2 {
+        right: 8%;
+    }
+}
+
+@media only screen and (max-width: 1128px) {
+    .welcome .coin1 {
+        right: 18%;
+    }
+    .welcome .coin2 {
+        right: 5%;
+    }
+}
+
 @media only screen and (max-width: 1016px) {
     .welcome h1 {
         font-size: 55px;
         line-height: 60px;
         margin-top: 2rem;
     }
-    .welcome img {
+    .welcome .mobileIphone {
         width: 25rem;
         left: -2rem;
     }
+    .welcome .coin1 {
+        right: 27%;
+    }
+    .welcome .coin2 {
+        top: 15%;
+        right: 13%;
+    }
 }
+@media only screen and (max-width: 970px) {
+    .welcome .coin1 {
+        right: 27%;
+        width: 2rem;
+    }
+    .welcome .coin2 {
+        right: 13%;
+        width: 3rem;
+    }
+}
+
 
 @media only screen and (max-width: 860px) {
     .welcome h1 {
@@ -75,7 +138,7 @@
         line-height: 50px;
         margin-top: 2rem;
     }
-    .welcome img {
+    .welcome .mobileIphone {
         width: 23rem;
         left: -2rem;
     }
@@ -84,7 +147,7 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .welcome h1 {
         text-align: center;
     }
@@ -96,7 +159,7 @@
         text-align: center;
         margin-top: 24rem;
     }
-    .welcome img {
+    .welcome .mobileIphone {
         position: relative;
         top: -32.5rem;
         width: 20rem;
@@ -118,10 +181,18 @@
         align-items: center;
         flex-direction: column;
     }
+    .welcome .coin1 {
+        right: 67%;
+        top: 40%;
+    }
+    .welcome .coin2 {
+        right: 48%;
+        top: 28%;
+    }
 }
 
 @media only screen and (max-width: 450px) {
-    .welcome img {
+    .welcome .mobileIphone {
         top: 0;
         width: 15rem;
     }

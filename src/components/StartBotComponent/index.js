@@ -72,7 +72,7 @@ export default class StartBotComponent extends React.Component {
 
         return (
             <>
-                <div className="startbot">
+                <div id="startbot" className="startbot">
                     <div className="container-fluid container-fluid--startbot section">
                         <div className="row justify-content-center">
                             <h2 className="extraBold">Как запустить бота</h2>

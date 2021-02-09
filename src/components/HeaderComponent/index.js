@@ -12,22 +12,22 @@ export default class HeaderComponent extends React.Component {
                 <div className="container-fluid">
                     <div className="row justify-content-center pc">
                         <div className="col header-item">
-                            <a target="_blank" href="https://t.me/GlobixCashBot"><img src={logo} draggable={false} alt="" /></a>
+                            <img src={logo} draggable={false} alt="" />
                         </div>
                         <div className="col header-item">
-                            <a href="">Кто я</a>
+                            <a href="#welcome">Кто я</a>
                         </div>
                         <div className="col header-item">
-                            <a href="">Возможности</a>
+                            <a href="#possibility">Возможности</a>
                         </div>
                         <div className="col header-item">
-                            <a href="">Переводы</a>
+                            <a href="#sofa">Переводы</a>
                         </div>
                         <div className="col header-item">
-                            <a href="">Поддержка</a>
+                            <a href="#forpeople">Поддержка</a>
                         </div>
                         <div className="col header-item">
-                            <a href="">Контакты</a>
+                            <a href="#startbot">Контакты</a>
                         </div>
                         <div className="dopinfo">
                             <div className="lang">En</div>
@@ -40,11 +40,11 @@ export default class HeaderComponent extends React.Component {
                             <input class="menu-btn" type="checkbox" id="menu-btn" />
                             <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
                             <div className="row mobile-menu">
-                                <a href="">Кто я</a>
-                                <a href="">Возможности</a>
-                                <a href="">Переводы</a>
-                                <a href="">Поддержка</a>
-                                <a href="">Контакты</a>
+                                <a href="#welcome">Кто я</a>
+                                <a href="#possibility">Возможности</a>
+                                <a href="#sofa">Переводы</a>
+                                <a href="#forpeople">Поддержка</a>
+                                <a href="#startbot">Контакты</a>
                             </div>
                         </div>
                         <div className="col header-item">

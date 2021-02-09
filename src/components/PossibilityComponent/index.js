@@ -11,7 +11,7 @@ import coin2 from "./img/coin2.png"
 export default class PossibilityComponent extends React.Component {
     render() {
         return (
-            <div className="possibility">
+            <div id="possibility" className="possibility">
                 <img src={coin1} className="coin1" alt="" draggable={false} />
                 <img src={coin2} className="coin2" alt="" draggable={false} />
                 <div className="container-fluid">

@@ -22,8 +22,8 @@
 
 .forpeople .coin1 {
     position: absolute;
-    top: 16rem;
-    right: 60rem;
+    top: 20%;
+    right: 45%;
     z-index: 20;
     animation: 2s linear 0s infinite levitatingAnimation;
 }
@@ -71,7 +71,7 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .forpeople .img1 {
         left: 0;
         top: 0;
@@ -96,6 +96,9 @@
     .forpeople .animated {
         position: relative;
         top: -44rem;
+    }
+    .forpeople .coin1 {
+        display: none;
     }
 }
 

@@ -99,18 +99,24 @@
 
 .possibility .coin1 {
     position: absolute;
-    top: 5rem;
-    right: 40rem;
+    top: 7%;
+    right: 35%;
     z-index: 20;
     animation: 2s linear 0s infinite levitatingAnimation;
 }
 
 .possibility .coin2 {
     position: absolute;
-    top: 35rem;
-    right: 65rem;
+    top: 67%;
+    right: 55%;
     z-index: 20;
     animation: 2s linear 0s infinite levitatingAnimation;
+}
+
+@media only screen and (max-width: 1170px) {
+    .possibility .coin1 {
+        right: 30%;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -119,6 +125,9 @@
     }
     .possibility {
         margin-top: 5rem;
+    }
+    .possibility .coin1 {
+        right: 17%;
     }
 }
 
@@ -131,9 +140,18 @@
         bottom: -7rem;
         left: -11rem;
     }
+    .possibility .coin2 {
+        top: 80%;
+        right: 50%;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .possibility .coin1 {
+        right: 6%;
+    }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .possibility h2, .possibility h5 {
         text-align: center;
     }
@@ -152,6 +170,13 @@
     }
     .possibility .col-md-6:first-child {
         z-index: 2;
+    }
+    .possibility .coin1 {
+        top: 30%;
+        right: 6%;
+    }
+    .possibility .coin2 {
+        top: 95%;
     }
 }
 
@@ -188,6 +213,12 @@
     }
     .possibility .greenCard .greenCard_text {
         text-align: center;
+    }
+    .possibility .coin1 {
+        display: none;
+    }
+    .possibility .coin2 {
+        display: none;
     }
 }
 

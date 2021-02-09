@@ -10,6 +10,12 @@
     margin-bottom: 2rem;
     margin-top: 8rem;
 }
+.security .coinContainer {
+    display: none;
+    position: absolute;
+    top: -20%;
+    left: -45%;
+}
 
 .security .extraBold--modile {
     display: none;
@@ -54,12 +60,98 @@
 
 .security .coin1 {
     position: absolute;
-    top: 7rem;
-    right: 24rem;
+    top: 15%;
+    right: 20%;
+    z-index: 20;
+    animation: 2s linear 0s infinite levitatingAnimation;
+}
+.security .coin2 {
+    display: none;
+    position: absolute;
+    top: 10%;
+    left: 28%;
     z-index: 20;
     animation: 2s linear 0s infinite levitatingAnimation;
 }
 
+.security .coin3 {
+    display: none;
+    position: absolute;
+    top: 23%;
+    left: 43%;
+    z-index: 20;
+    animation: 2s linear 0s infinite levitatingAnimation;
+}
+
+.security .coin4 {
+    display: none;
+    position: absolute;
+    top: 39%;
+    left: 79%;
+    z-index: 20;
+    animation: 2s linear 0s infinite levitatingAnimation;
+}
+
+.security .coin5 {
+    display: none;
+    position: absolute;
+    top: 53%;
+    left: 55%;
+    z-index: 20;
+    animation: 2s linear 0s infinite levitatingAnimation;
+}
+
+/* .security .coin6 {
+    position: absolute;
+    top: 38rem;
+    left: 36rem;
+    z-index: 20;
+    animation: 2s linear 0s infinite levitatingAnimation;
+}
+
+.security .coin7 {
+    position: absolute;
+    top: 40rem;
+    left: 41rem;
+    z-index: 20;
+    animation: 2s linear 0s infinite levitatingAnimation;
+}
+
+.security .coin8 {
+    position: absolute;
+    top: 46rem;
+    left: 39rem;
+    z-index: 20;
+    animation: 2s linear 0s infinite levitatingAnimation;
+}
+
+.security .coin9 {
+    position: absolute;
+    top: 45rem;
+    left: 53rem;
+    z-index: 20;
+    animation: 2s linear 0s infinite levitatingAnimation;
+} */
+@media only screen and (max-width: 1700px) {
+    .security .coin1 {
+        right: 13%;
+    }
+}
+@media only screen and (max-width: 1386px) {
+    .security .coin1 {
+        right: 8%;
+    }
+}
+@media only screen and (max-width: 1212px) {
+    .security .coin1 {
+        right: 3%;
+    }
+}
+@media only screen and (max-width: 1080px) {
+    .security .coin1 {
+        display: none;
+    }
+}
 @media only screen and (max-width: 1010px) {
     .security .img1 {
         position: relative;
@@ -71,7 +163,6 @@
         top: 0rem;
     }
 }
-
 @media only screen and (max-width: 968px) {
     .security h2 {
         font-size: 59px;
@@ -128,6 +219,35 @@
     .security .row {
         justify-content: center;
     }
+    .security .coin1 {
+        display: block;
+        position: absolute;
+        top: 8%;
+        left: 62%;
+        z-index: 20;
+        animation: 2s linear 0s infinite levitatingAnimation;
+    }
+    .security .coin2 {
+        display: block;
+    }
+    .security .coin3 {
+        display: block;
+    }
+    .security .coin4 {
+        display: block;
+    }
+    .security .coin5 {
+        display: block;
+    }
+    
+}
+
+
+@media only screen and (max-width: 558px) {
+    .security .coinContainer {
+        left: -82%;
+    }
+    
 }
 
 @media only screen and (max-width: 510px) {

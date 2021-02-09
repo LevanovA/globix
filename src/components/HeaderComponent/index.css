@@ -41,6 +41,7 @@
 }
 
 .lang {
+    display: block;
     position: absolute;
     width: 71px;
     height: 73px;
@@ -69,7 +70,7 @@
     cursor: pointer;
     display: inline-block;
     padding: 15px 10px;
-    position: relative;
+    position: fixed;
     user-select: none;
     z-index: 101;
 }
@@ -166,7 +167,7 @@
     display: none;
     background: white;
     width: 100vw;
-    position: absolute;
+    position: fixed;
     z-index: 100;
     top: -17rem;
     padding-top: 3rem;
@@ -188,8 +189,14 @@
 }
 
 @media only screen and (max-width: 1460px) {
-    .lang, .header .pc .dopinfo {
+    .lang {
         display: none;
+    }
+    .header .dopinfo {
+        position: static;
+    }
+    .header a {
+        font-size: 16px;
     }
 }
 
