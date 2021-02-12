@@ -31,7 +31,7 @@ export default class HeaderComponent extends React.Component {
                         <div className="dopinfo">
                             <div className="lang">En</div>
                             <a target="_blank" href="https://t.me/GlobixCashBot"><img src={telegram} draggable={false} alt="" /></a>
-                            <a href=""><img src={whatsup} draggable={false} alt="" /></a>
+                            {/* <a href=""><img src={whatsup} draggable={false} alt="" /></a> */}
                         </div>
                     </div>
                     <div className="row justify-content-between mobile">
