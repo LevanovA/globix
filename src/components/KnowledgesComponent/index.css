@@ -35,6 +35,36 @@
     display: none;
 }
 
+.userNumBar {
+    position: relative;
+    font-family: 'Circe Bold';
+    margin-bottom: 0.7rem;
+}
+
+.userImgNumBar {
+    position: absolute;
+}
+
+.pplNum {
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 65px;
+    line-height: 60px;
+    font-family: 'Circe Bold';
+}
+
+.digit-con, .comma {
+    height: 60px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.knowledges span {
+    position: relative;
+    font-family: 'Circe Bold';
+}
+
 @media only screen and (max-width: 1250px) {
     .knowledges img {
         top: 4rem;
