@@ -15,7 +15,7 @@ export default class ForPeopleComponent extends React.Component {
                     <div className="container-fluid section">
                         <div className="row">
                             <div className="col-md-6 column">
-                                <h2 className="extraBold">Глобикс<br />
+                                <h2 className="extraBold">Битикс<br />
                             для людей</h2>
                                 <h5>Наше сообщество растёт постоянно.<br />
                             Мы совершенствуем нашего бота и прислушиваемся<br />

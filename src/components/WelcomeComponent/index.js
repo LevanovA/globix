@@ -21,13 +21,13 @@ export default class WelcomeComponent extends React.Component {
                                     duration={2}
                                     animateOnce={true}
                                     animateIn="fadeInLeft">
-                                    <h1 className="extraBold">Привет, я <span className="littleCard extraBold">Globix</span><br />
+                                    <h1 className="extraBold">Привет, я <span className="littleCard extraBold">Bittix</span><br />
                                     кошелёк для<br />
                                     людей
                                 </h1>
                                 </ScrollAnimation>
                                 <Parallax y={[-15, 15]}>
-                                    <h4><span className="extraBold eb">Globix Cash</span> — это простой и
+                                    <h4><span className="extraBold eb">Bittix Cash</span> — это простой и
                             надежный<br /> мультивалютный кошелёк <span className="bold">в Telegram</span></h4>
                                     <a href="https://t.me/GlobixCashBot" className="button" target="_blank">Активировать</a>
                                 </Parallax>

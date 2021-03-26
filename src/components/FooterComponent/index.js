@@ -43,7 +43,7 @@ export default class FooterComponent extends React.Component {
                             </div>
                         </div>
                         <div className="col-md-12 rights">
-                            © 2020 «Globix» Все права защищены
+                            © 2020 «Bittix» Все права защищены
                         </div>
                     </div>
                 </div>

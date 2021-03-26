@@ -49,7 +49,7 @@ export default class CardsComponent extends React.Component {
                                 animateIn="fadeInUp">
                                 <div className="whiteCard">
                                     <div className="whiteCard_title bold">
-                                        Globix
+                                        Bittix
                                     </div>
                                     <div className="whiteCard_text">
                                         Один из самых безопасных<br />
