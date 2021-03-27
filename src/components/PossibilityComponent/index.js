@@ -4,7 +4,7 @@ import cursor from "../../images/cursor.png"
 import manWithCard from "../../images/man_with_card.png"
 import ScrollAnimation from 'react-animate-on-scroll';
 import { Parallax } from 'react-scroll-parallax';
-import { ScrollRotate } from 'react-scroll-rotate';
+// import { ScrollRotate } from 'react-scroll-rotate';
 import coin1 from "./img/coin1.png"
 import coin2 from "./img/coin2.png"
 

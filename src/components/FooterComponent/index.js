@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.css'
 import logo from '../../images/logo.svg'
-import { Parallax } from 'react-scroll-parallax';
+// import { Parallax } from 'react-scroll-parallax';
 
 export default class FooterComponent extends React.Component {
     render() {
@@ -33,13 +33,13 @@ export default class FooterComponent extends React.Component {
                             </div>
                         <div className="col-md-12 politics">
                             <div className="row">
-                                <a href="" target="_blank">Раскрытие информации</a>
+                                <a href="/" target="_blank" rel="noopener noreferrer">Раскрытие информации</a>
                             </div>
                             <div className="row">
-                                <a href="" target="_blank">Документы</a>
+                                <a href="/" target="_blank" rel="noopener noreferrer">Документы</a>
                             </div>
                             <div className="row">
-                                <a href="" target="_blank">Политика обработки cookies</a>
+                                <a href="/" target="_blank" rel="noopener noreferrer">Политика обработки cookies</a>
                             </div>
                         </div>
                         <div className="col-md-12 rights">

@@ -2,7 +2,7 @@ import React from 'react'
 import './index.css'
 import wavesImg from "../../images/wavyLine.svg"
 import ScrollAnimation from 'react-animate-on-scroll';
-import { Parallax } from 'react-scroll-parallax';
+// import { Parallax } from 'react-scroll-parallax';
 import coin1 from "./img/coin1.png"
 
 export default class CardsComponent extends React.Component {

@@ -29,7 +29,7 @@ export default class WelcomeComponent extends React.Component {
                                 <Parallax y={[-15, 15]}>
                                     <h4><span className="extraBold eb">Bittix Cash</span> — это простой и
                             надежный<br /> мультивалютный кошелёк <span className="bold">в Telegram</span></h4>
-                                    <a href="https://t.me/GlobixCashBot" className="button" target="_blank">Активировать</a>
+                                    <a href="https://t.me/bittixbot" className="button" target="_blank" rel="noopener noreferrer">Активировать</a>
                                 </Parallax>
                             </div>
                             <div className="col-md-5 column">

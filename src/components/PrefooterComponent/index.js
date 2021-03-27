@@ -2,7 +2,7 @@ import React from 'react'
 import './index.css'
 import iphoneRotate from "../../images/iphoneRotate.png"
 import ScrollAnimation from 'react-animate-on-scroll';
-import { Parallax } from 'react-scroll-parallax';
+// import { Parallax } from 'react-scroll-parallax';
 
 export default class PrefooterComponent extends React.Component {
 
@@ -15,7 +15,7 @@ export default class PrefooterComponent extends React.Component {
                             <div className="col-md-6 column">
                                 <h2 className="extraBold">Всё в твоих<br /> руках</h2>
                                 <h5>простой доступ к активам из любой точки мира</h5>
-                                <a href="https://t.me/GlobixCashBot" className="button" target="_blank">Начать использовать</a>
+                                <a href="https://t.me/bittixbot" className="button" target="_blank" rel="noopener noreferrer">Начать использовать</a>
                             </div>
                             <div className="col-md-6 column">
                                 <ScrollAnimation

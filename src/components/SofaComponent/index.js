@@ -2,7 +2,7 @@ import React from 'react'
 import './index.css'
 import sofa from "../../images/sofa.png"
 import ScrollAnimation from 'react-animate-on-scroll';
-import { Parallax } from 'react-scroll-parallax';
+// import { Parallax } from 'react-scroll-parallax';
 
 import coin1 from "./img/coin1.png"
 import coin2 from "./img/coin2.png"
@@ -56,7 +56,7 @@ export default class SofaComponent extends React.Component {
                                     <span className="bold">Доступно в более чем<br />
                                 100 стран мира</span>
                                 </div>
-                                <a href="https://t.me/GlobixCashBot" className="button" target="_blank">Начать сейчас</a>
+                                <a href="https://t.me/bittixbot" className="button" target="_blank" rel="noopener noreferrer">Начать сейчас</a>
                             </div>
                         </div>
                     </div>

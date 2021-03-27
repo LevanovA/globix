@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.css'
 import exitImg from "../../images/exit.svg"
-import { Parallax } from 'react-scroll-parallax';
+// import { Parallax } from 'react-scroll-parallax';
 import popupImg1 from "../../images/popupImg1.png";
 import popupImg2 from "../../images/popupImg2.png";
 import popupImg3 from "../../images/popupImg3.png";
@@ -105,7 +105,7 @@ export default class ModalComponent extends React.Component {
                                         <img src={popupImg2} draggable={false} alt="" />
                                         <img src={popupImg3} draggable={false} alt="" />
                                     </div>
-                                    <a href="https://t.me/GlobixCashBot" target="_blank" ><div className="infomodal_btn">Попробовать</div></a>
+                                    <a href="https://t.me/bittixbot" target="_blank" rel="noopener noreferrer"><div className="infomodal_btn">Попробовать</div></a>
                                 </div>
                             </div>
                         </div>}

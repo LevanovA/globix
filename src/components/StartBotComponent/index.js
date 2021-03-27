@@ -2,7 +2,7 @@ import React from 'react'
 import './index.css'
 import ModalComponent from '../ModalComponent'
 import ScrollAnimation from 'react-animate-on-scroll';
-import { Parallax } from 'react-scroll-parallax';
+// import { Parallax } from 'react-scroll-parallax';
 
 export default class StartBotComponent extends React.Component {
     constructor(props) {

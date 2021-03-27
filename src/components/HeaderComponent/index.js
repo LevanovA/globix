@@ -2,8 +2,8 @@ import React from 'react'
 import './index.css'
 import logo from '../../images/logo.svg'
 import telegram from '../../images/telegram.svg'
-import whatsup from '../../images/whatsup.svg'
-import { Parallax } from 'react-scroll-parallax';
+// import whatsup from '../../images/whatsup.svg'
+// import { Parallax } from 'react-scroll-parallax';
 export default class HeaderComponent extends React.Component {
     render() {
         return (
@@ -30,7 +30,7 @@ export default class HeaderComponent extends React.Component {
                         </div>
                         <div className="dopinfo">
                             <div className="lang">En</div>
-                            <a target="_blank" href="https://t.me/GlobixCashBot"><img src={telegram} draggable={false} alt="" /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://t.me/bittixbot"><img src={telegram} draggable={false} alt="" /></a>
                             {/* <a href=""><img src={whatsup} draggable={false} alt="" /></a> */}
                         </div>
                     </div>
@@ -50,7 +50,7 @@ export default class HeaderComponent extends React.Component {
                             <img src={logo} draggable={false} alt="" />
                         </div>
                         <div className="dopinfo">
-                            <a target="_blank" href="https://t.me/GlobixCashBot"><img src={telegram} draggable={false} alt="" /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://t.me/bittixbot"><img src={telegram} draggable={false} alt="" /></a>
                         </div>
                     </div>
                 </div>

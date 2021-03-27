@@ -2,16 +2,16 @@ import React from 'react'
 import './index.css'
 import securityImg from "../../images/security.png"
 import ScrollAnimation from 'react-animate-on-scroll';
-import { Parallax } from 'react-scroll-parallax';
+// import { Parallax } from 'react-scroll-parallax';
 import coin1 from "./img/coin1.png"
 import coin2 from "./img/coin2.png"
 import coin3 from "./img/coin3.png"
 import coin4 from "./img/coin4.png"
 import coin5 from "./img/coin5.png"
-import coin6 from "./img/coin6.png"
-import coin7 from "./img/coin7.png"
-import coin8 from "./img/coin8.png"
-import coin9 from "./img/coin9.png"
+// import coin6 from "./img/coin6.png"
+// import coin7 from "./img/coin7.png"
+// import coin8 from "./img/coin8.png"
+// import coin9 from "./img/coin9.png"
 
 export default class SecurityComponent extends React.Component {
     
@@ -67,7 +67,7 @@ export default class SecurityComponent extends React.Component {
                                     - Используйте сложные пароли<br />
                                     - Всегда проверяйте правильность суммы и получателя<br />
                                 </h5>
-                                <a href="https://t.me/GlobixCashBot" className="button" target="_blank">Начать использовать</a>
+                                <a href="https://t.me/bittixbot" className="button" target="_blank" rel="noopener noreferrer">Начать использовать</a>
                             </div>
                             <ScrollAnimation
                                 offset={600}

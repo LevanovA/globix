@@ -2,7 +2,7 @@ import React from 'react'
 import './index.css'
 import knowledgesImg from "../../images/knowledges.png"
 import ScrollAnimation from 'react-animate-on-scroll';
-import { Parallax } from 'react-scroll-parallax';
+// import { Parallax } from 'react-scroll-parallax';
 import $ from 'jquery'
 
 export default class KnowledgesComponent extends React.Component {
@@ -23,7 +23,7 @@ export default class KnowledgesComponent extends React.Component {
             var _target = target;
             var number = number.toString();
             var numArray = number.split("");
-            var isBg = false;
+            // var isBg = false;
             var defaults = {
                 speed: 3000,
                 isDigitBg: false,

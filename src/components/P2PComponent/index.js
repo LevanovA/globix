@@ -3,7 +3,7 @@ import './index.css'
 import p2p_1Img from "../../images/p2p_1.png"
 import p2p_2Img from "../../images/p2p_2.png"
 import ScrollAnimation from 'react-animate-on-scroll';
-import { Parallax } from 'react-scroll-parallax';
+// import { Parallax } from 'react-scroll-parallax';
 
 export default class P2PComponent extends React.Component {
     render() {
